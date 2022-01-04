@@ -1,0 +1,4489 @@
+{
+	"EventCodes": [
+		{
+			"0x04b30001": "The location of the parameter that is used in the path URI is not valid. "
+		},
+		{
+			"0x04b30002": "The format of the parameter that is used in the path URI is not valid. "
+		},
+		{
+			"0x04b30003": "The parameter that is used in the path URI is not defined. "
+		},
+		{
+			"0x04b30004": "The type of the parameter that is used in the path URI is not supported. "
+		},
+		{
+			"0x04b30005": "Found invalid action(s) in the assembly rule. "
+		},
+		{
+			"0x04b30006": "Duplicated default API collection. "
+		},
+		{
+			"0x04b30007": "The format of the configured API path is not valid. "
+		},
+		{
+			"0x04b30008": "The format of the configured routing prefix is not valid. "
+		},
+		{
+			"0x04b3000a": "The request URL is not routed to any API collection. "
+		},
+		{
+			"0x04b3000b": "Operation is invalid because required path parameters are missing. "
+		},
+		{
+			"0x04b3000c": "The use of plus quantifier in path parameter is invalid. "
+		},
+		{
+			"0x04230001": "Unknown error "
+		},
+		{
+			"0x04230002": "Cannot process request headers. "
+		},
+		{
+			"0x04230003": "AS2 message processing failed: decryption failure. "
+		},
+		{
+			"0x04230004": "AS2 message processing failed: decompression or decryption failure. "
+		},
+		{
+			"0x04230005": "AS2 message processing failed: cannot fetch exchange profile. "
+		},
+		{
+			"0x04230006": "AS2 message processing failed: invalid exchange profile. "
+		},
+		{
+			"0x04230007": "AS2 message processing failed: cannot load decryption materials. "
+		},
+		{
+			"0x04230008": "AS2 message processing failed: cannot load signature verification materials. "
+		},
+		{
+			"0x04230009": "AS2 message processing failed: signature verification failure. "
+		},
+		{
+			"0x0423000a": "AS2 message rejected because of security policy: message does not meet exchange requirement. "
+		},
+		{
+			"0x0423000b": "Error when parsing MIME payload. "
+		},
+		{
+			"0x0423000c": "AS2 message processing failed: Invalid content for AS2 'Original-Message-ID' header for MDN. "
+		},
+		{
+			"0x0423000d": "Invalid visibility event endpoint URL. "
+		},
+		{
+			"0x0423000e": "Failed to establish connection to the MEIG visibility event endpoint. "
+		},
+		{
+			"0x0423000f": "An error occurred on the front side connection. "
+		},
+		{
+			"0x04230010": "A hangup error occurred on the front side connection. "
+		},
+		{
+			"0x02c60001": "Configuration settings applied "
+		},
+		{
+			"0x02c60002": "Configuration added "
+		},
+		{
+			"0x02c60003": "Configuration deleted "
+		},
+		{
+			"0x02c60004": "Password changed "
+		},
+		{
+			"0x02c30005": "Maximum number of failed logins. "
+		},
+		{
+			"0x02c60006": "admin-state disabled. "
+		},
+		{
+			"0x02c60007": "admin-state enabled. "
+		},
+		{
+			"0x02c30008": "Lock out due to number of failed logins "
+		},
+		{
+			"0x03130001": "Invalid Business ID "
+		},
+		{
+			"0x03130002": "Retransmit Exhausted "
+		},
+		{
+			"0x03130003": "Fail to Retrieve Retransmit Message "
+		},
+		{
+			"0x03160004": "Corresponding MDN Has Been Received "
+		},
+		{
+			"0x03130005": "Error Occurred During Retransmit Message "
+		},
+		{
+			"0x03130006": "Missing mandatory AS headers "
+		},
+		{
+			"0x03130007": "Parsing AS header error "
+		},
+		{
+			"0x03140008": "No decryption key. "
+		},
+		{
+			"0x03140009": "Unsupported AS Version "
+		},
+		{
+			"0x0313000a": "Unsupported Signing Protocol "
+		},
+		{
+			"0x0313000b": "Unsupported MIC Algorithm "
+		},
+		{
+			"0x0313000c": "Unexpected MDN response "
+		},
+		{
+			"0x0314000d": "Database operation failed "
+		},
+		{
+			"0x0313000e": "Unsupported document type "
+		},
+		{
+			"0x0313000f": "Reject duplicate message "
+		},
+		{
+			"0x03130010": "MDN URL Setting Error "
+		},
+		{
+			"0x03130011": "MDN Generation Error "
+		},
+		{
+			"0x03140012": "Bad Content Type "
+		},
+		{
+			"0x03140013": "Required encrypted data not encrypted. "
+		},
+		{
+			"0x03130014": "Archive directory or file name is missing "
+		},
+		{
+			"0x03120015": "Insufficient disk space on RAID volume "
+		},
+		{
+			"0x03120018": "B2B persistence store down "
+		},
+		{
+			"0x03160019": "Waiting Inbound Asynchronous MDN response "
+		},
+		{
+			"0x0316001a": "Waiting Outbound Asynchronous MDN "
+		},
+		{
+			"0x0313001b": "No MDN received for outbound transaction "
+		},
+		{
+			"0x0313001c": "Failed to deliver MDN for inbound transaction "
+		},
+		{
+			"0x0313001d": "No reference to original B2B Gateway "
+		},
+		{
+			"0x0313001e": "no credentials to sign MDN "
+		},
+		{
+			"0x0313001f": "No B2B transaction ID "
+		},
+		{
+			"0x03130020": "Cannot reduce B2B persistence storage size "
+		},
+		{
+			"0x03130021": "No internal partner profile is associated with this gateway "
+		},
+		{
+			"0x03130022": "No external partner profile is associated with this gateway "
+		},
+		{
+			"0x03130023": "Duplicate business identifiers are in one or more partner profiles "
+		},
+		{
+			"0x03130024": "MDN Processing Error "
+		},
+		{
+			"0x03120025": "Insufficient persistent store space on RAID volume "
+		},
+		{
+			"0x03140026": "Required signed data not signed. "
+		},
+		{
+			"0x03130027": "External partner has no AS2 async MDN URL "
+		},
+		{
+			"0x03130028": "External partner has no AS3 async MDN URL "
+		},
+		{
+			"0x03130029": "Document storage location cannot be local:/// "
+		},
+		{
+			"0x0313002a": "Backside connection resulted in a protocol failure "
+		},
+		{
+			"0x0316002b": "Could not find retransmission info "
+		},
+		{
+			"0x0313002c": "Duplicate email addresses are in one or more partner profiles "
+		},
+		{
+			"0x0313002d": "Default SMTP connection object is not available "
+		},
+		{
+			"0x0313002e": "No email address configured for sending partner "
+		},
+		{
+			"0x0313002f": "No email address configured for receiving partner "
+		},
+		{
+			"0x03130030": "External partner has no AS1 MDN URL "
+		},
+		{
+			"0x03130031": "SMTP server connection object is not up "
+		},
+		{
+			"0x03130032": "Destination missing required url "
+		},
+		{
+			"0x03130033": "Setting for replying async Acknowledgment not found "
+		},
+		{
+			"0x03130034": "Failed to send async Acknowledgment to external partner "
+		},
+		{
+			"0x03130035": "Settings for replying async Error not found "
+		},
+		{
+			"0x03130036": "Failed to send async Error message to external partner "
+		},
+		{
+			"0x03160037": "Waiting Outbound Asynchronous Acknowledgment "
+		},
+		{
+			"0x03160038": "Waiting Inbound Asynchronous HTTP response "
+		},
+		{
+			"0x03130039": "Received Unexpected Synchronous Response "
+		},
+		{
+			"0x0313003a": "Response Processing Error "
+		},
+		{
+			"0x0313003b": "Received response with unexpected RefToMessageId "
+		},
+		{
+			"0x0313003c": "No ACK received for ebMS outbound transaction "
+		},
+		{
+			"0x0313003d": "TimeToLive element invalid for inbound transaction "
+		},
+		{
+			"0x0313003e": "Error occurred when parsing ebMS Pong message "
+		},
+		{
+			"0x0313003f": "Error occurred when paring ebMS Status Response message "
+		},
+		{
+			"0x03130040": "Unauthorized inbound message "
+		},
+		{
+			"0x03140041": "Ignored Ack or Error Message with the same RefToMessageId value "
+		},
+		{
+			"0x03130042": "Rejected unexpected Ack or Error Message "
+		},
+		{
+			"0x03130043": "Error found for the ebMS2 ping message "
+		},
+		{
+			"0x03130044": "Error found for the ebMS2 status request "
+		},
+		{
+			"0x03130045": "Duplicate Message Inconsistent with Original "
+		},
+		{
+			"0x03130046": "Security error for inbound transaction "
+		},
+		{
+			"0x03130047": "MIME problem for inbound transaction "
+		},
+		{
+			"0x03130048": "Cannot deliver async Ack without AckURL "
+		},
+		{
+			"0x03130049": "Cannot deliver async Error Message without ErrorURL "
+		},
+		{
+			"0x0313004a": "The inbound ebMS message is not supported "
+		},
+		{
+			"0x0313004b": "Invalid destination "
+		},
+		{
+			"0x0313004c": "ebXML element/attribute is not recognizable "
+		},
+		{
+			"0x0313004d": "Unknown ebXML document type "
+		},
+		{
+			"0x0313004e": "Not a valid ebXML message "
+		},
+		{
+			"0x0313004f": "Other Host in HA Cluster not defined "
+		},
+		{
+			"0x03130050": "ACK Processing Failure "
+		},
+		{
+			"0x03130051": "Error Occurred During Packaging Retransmit Message "
+		},
+		{
+			"0x03130052": "The specified virtual IP address was invalid "
+		},
+		{
+			"0x03130053": "The specified standby control group does not exist "
+		},
+		{
+			"0x03130054": "The specified standby control group did not enable preemption "
+		},
+		{
+			"0x03120055": "Too many files on RAID volume "
+		},
+		{
+			"0x03120056": "Transaction cannot be recovered "
+		},
+		{
+			"0x03160057": "Waiting Outbound Response "
+		},
+		{
+			"0x03130058": "Fault response returned by outbound receiver "
+		},
+		{
+			"0x03130059": "Required SSH Client Connection object is not provided or is not operational "
+		},
+		{
+			"0x0313005a": "Archive monitor associated with B2B gateway is down "
+		},
+		{
+			"0x0313005b": "SSH Client Connection not configured for SFTP "
+		},
+		{
+			"0x0313005c": "No Business ID is specified "
+		},
+		{
+			"0x0313005d": "Invalid frontside URL due to unsupported URL parameter or command "
+		},
+		{
+			"0x0313005e": "Incorrect CPA partner specified "
+		},
+		{
+			"0x0313005f": "Cannot identify CPA Business Collaboration Service "
+		},
+		{
+			"0x03130060": "Cannot identify CPA MSH Signal Service "
+		},
+		{
+			"0x03130061": "Cannot identify receiving Action binding "
+		},
+		{
+			"0x03130062": "Inconsistent with CPA setting "
+		},
+		{
+			"0x03130063": "Cannot reply with no MSH Signal Service "
+		},
+		{
+			"0x03130064": "Missing Service "
+		},
+		{
+			"0x03130065": "Missing Role(s) "
+		},
+		{
+			"0x03130066": "Missing Default Sender/Receiver Action "
+		},
+		{
+			"0x03130067": "Action is required "
+		},
+		{
+			"0x03130068": "Cannot identify sending Action binding "
+		},
+		{
+			"0x03130069": "Failed to sign Acknowledgment "
+		},
+		{
+			"0x0313006a": "Processing failure: Failed to package outbound ebMS message "
+		},
+		{
+			"0x0313006b": "Missing required CPAId, Service, or Action "
+		},
+		{
+			"0x0313006c": "Query result from database is invalid "
+		},
+		{
+			"0x0313006d": "Processing failure: Failed to package Acknowledgment "
+		},
+		{
+			"0x0313006e": "An error ocurred when parsing EDI document "
+		},
+		{
+			"0x0313006f": "Query Error: Error during pre-process. Abort Query. "
+		},
+		{
+			"0x03130070": "Query Error: Abort Query. "
+		},
+		{
+			"0x03140071": "Query Warn: exception detected. Query proceeded. "
+		},
+		{
+			"0x03160072": "Query Info: Query proceeded. Please see information in event logs "
+		},
+		{
+			"0x03130073": "Failed to archive persisted transactions "
+		},
+		{
+			"0x03130074": "Invalid Archive Directory URL specified "
+		},
+		{
+			"0x03130075": "Document Storage directory not accessible "
+		},
+		{
+			"0x03130076": "HA configuration template file missing. "
+		},
+		{
+			"0x03130077": "Failed to generate HA configuration file. "
+		},
+		{
+			"0x03130078": "The IPv6 address is not supported for high availability configuration. "
+		},
+		{
+			"0x03130079": "The HA configuration is invalid. "
+		},
+		{
+			"0x0316007a": "Reprocessed Success "
+		},
+		{
+			"0x0313007b": "The specificed digest algorithm is not supported. "
+		},
+		{
+			"0x0313007c": "B2B document storage is not ready to be used. "
+		},
+		{
+			"0x0313007d": "Routing preprocessor file type mismatch. "
+		},
+		{
+			"0x0313007e": "One or more CPA senders are not internal partner profiles. "
+		},
+		{
+			"0x0314007f": "No message is available for pulling in this message partition channel. "
+		},
+		{
+			"0x03130080": "Security policy noncompliance. "
+		},
+		{
+			"0x03130081": "Processing mode mismatch. "
+		},
+		{
+			"0x03130082": "External payload error. "
+		},
+		{
+			"0x03130083": "No receipt is received for the message sent. "
+		},
+		{
+			"0x03130084": "Invalid receipt received. "
+		},
+		{
+			"0x03130085": "An error occurred during the decompression. "
+		},
+		{
+			"0x03140086": "The inbound ebMS message contains unsupported elements or attributes. "
+		},
+		{
+			"0x03140087": "The inbound ebMS message contains inconsistent element or attribute. "
+		},
+		{
+			"0x03140088": "A signed message is received while the DataPower Gateway expects an unsigned message. "
+		},
+		{
+			"0x03140089": "An unsigned receipt is received while the DataPower Gateway expects a signed receipt. "
+		},
+		{
+			"0x0313008a": "Cannot identify the user name associated with the submitted message. "
+		},
+		{
+			"0x0313008b": "Cannot identify the user name from the pull request message. "
+		},
+		{
+			"0x0314008c": "An encrypted message was received while the B2B Gateway expects an unencrypted message. "
+		},
+		{
+			"0x0314008d": "An uncompressed message was received while the B2B Gateway requires a compressed message. "
+		},
+		{
+			"0x0314008e": "A compressed message was received while the B2B Gateway expects an uncompressed message. "
+		},
+		{
+			"0x0313008f": "Failed to delete the specified message from the MPC. "
+		},
+		{
+			"0x03130090": "The MPC name that is associated with the submitted message is invalid. "
+		},
+		{
+			"0x03130091": "Cannot identify the validation credential that is associated with the submitted message. "
+		},
+		{
+			"0x03130092": "Cannot identify the certificate of the pull request message. "
+		},
+		{
+			"0x01530001": "Time zone config mismatch. "
+		},
+		{
+			"0x04430001": "The direction of the Cloud Connector SSL Proxy Profile is Reverse. "
+		},
+		{
+			"0x04330001": "The direction of the Cloud Gateway SSL Proxy Profile is not Reverse. "
+		},
+		{
+			"0x04330002": "The direction of an enterprise application SSL Proxy Profile is not Forward. "
+		},
+		{
+			"0x03730001": "Exceeded service count maximum. "
+		},
+		{
+			"0x03730002": "System Identifier not set. "
+		},
+		{
+			"0x03730003": "System Identifier not found. "
+		},
+		{
+			"0x03730004": "Failed to create configuration file. "
+		},
+		{
+			"0x03730005": "Configuration modification not allowed. "
+		},
+		{
+			"0x03730006": "Failed to bring the cluster service online. "
+		},
+		{
+			"0x03730007": "Failed to bring the cluster service offline. "
+		},
+		{
+			"0x03730008": "Failed to open heartbeat directory. "
+		},
+		{
+			"0x03730009": "Heartbeat still active. "
+		},
+		{
+			"0x0373000a": "Failed to stop heartbeat. "
+		},
+		{
+			"0x0373000b": "Cannot find cluster. "
+		},
+		{
+			"0x03030001": "Failed allocating memory. "
+		},
+		{
+			"0x03040002": "Signature verification failed. "
+		},
+		{
+			"0x03040003": "Bad digest algorithm. "
+		},
+		{
+			"0x03040004": "Invalid cms data. "
+		},
+		{
+			"0x03040005": "Digest update failed. "
+		},
+		{
+			"0x03040006": "Could not process cms data. "
+		},
+		{
+			"0x03040007": "Unable to decrypt data. "
+		},
+		{
+			"0x03040009": "Unable to uncompress data. "
+		},
+		{
+			"0x0304000c": "Bad encryption cipher. "
+		},
+		{
+			"0x0304000d": "Unable to encrypt data. "
+		},
+		{
+			"0x0304000e": "Unable to encrypt data. "
+		},
+		{
+			"0x0304000f": "Unable to sign data. "
+		},
+		{
+			"0x03040010": "No signing key. "
+		},
+		{
+			"0x03040011": "Bad signing digest. "
+		},
+		{
+			"0x03040013": "Could not update headers for outbound data. "
+		},
+		{
+			"0x03030014": "Attempt to send outbound message with no data. "
+		},
+		{
+			"0x01b10001": "Crypto accelerator not supported by this firmware "
+		},
+		{
+			"0x01b20002": "HSM is uninitialized "
+		},
+		{
+			"0x01b20003": "HSM PED login timed out "
+		},
+		{
+			"0x01b20004": "HSM PED login failed "
+		},
+		{
+			"0x01b10005": "Microcode file not found "
+		},
+		{
+			"0x01b10006": "Microcode load failed "
+		},
+		{
+			"0x01b10007": "HSM credentials not found "
+		},
+		{
+			"0x01b20008": "HSM password login failed "
+		},
+		{
+			"0x01b10009": "uncertified HSM firmware detected "
+		},
+		{
+			"0x01b1000a": "Runtime error detected "
+		},
+		{
+			"0x01b6000b": "deprecated "
+		},
+		{
+			"0x01b6000c": "Certificate is about to expire "
+		},
+		{
+			"0x01b1000d": "HSM driver reload failed "
+		},
+		{
+			"0x01b3000e": "Could not create AAA Authentication LTPA key material "
+		},
+		{
+			"0x01b3000f": "Could not create AAA Post Processing LTPA key material "
+		},
+		{
+			"0x01b30010": "Could not parse WebSEAL DynURL Mapping file "
+		},
+		{
+			"0x01b50011": "HSM needs power cycle "
+		},
+		{
+			"0x01b30012": "Kerberos object opstate down due to crypto mode "
+		},
+		{
+			"0x01b30013": "Referenced external AAA template contains dynamic configuration. "
+		},
+		{
+			"0x00130002": "Failed to read data "
+		},
+		{
+			"0x00130003": "Failed to connect "
+		},
+		{
+			"0x01230002": "Out of Memory "
+		},
+		{
+			"0x01230003": "Invalid UTF-8 Character "
+		},
+		{
+			"0x01230004": "Invalid UTF-16 Character "
+		},
+		{
+			"0x01230005": "Invalid EBCDIC Character "
+		},
+		{
+			"0x01230006": "Attempted to encode a character which cannot be represented in Latin-1 "
+		},
+		{
+			"0x01230007": "Attempted to encode a character which cannot be represented in Latin-2 "
+		},
+		{
+			"0x01230008": "Attempted to encode a character which cannot be represented in EBCDIC "
+		},
+		{
+			"0x01230009": "Unknown encoding name "
+		},
+		{
+			"0x0123000a": "Invalid input text encoding "
+		},
+		{
+			"0x0123000b": "Invalid character for output text encoding "
+		},
+		{
+			"0x02220001": "Power supply failure. "
+		},
+		{
+			"0x02240002": "Internal cooling fan has slowed "
+		},
+		{
+			"0x02220003": "Internal cooling fan has stopped. "
+		},
+		{
+			"0x02220004": "System battery missing. "
+		},
+		{
+			"0x02220005": "System battery failed. "
+		},
+		{
+			"0x02220006": "Power supply AC is not connected "
+		},
+		{
+			"0x04130001": "Error report creation failed. "
+		},
+		{
+			"0x03a30001": "During event processing, an error occurred. "
+		},
+		{
+			"0x03a30002": "A connection failure occurred. "
+		},
+		{
+			"0x03a30003": "The initial server connection could not be started. "
+		},
+		{
+			"0x03a30004": "A data connection to the server could not be established. "
+		},
+		{
+			"0x03a30005": "A DNS lookup failed. "
+		},
+		{
+			"0x03a30006": "Invalid local address was specified. "
+		},
+		{
+			"0x03530001": "Failed to load HBA. "
+		},
+		{
+			"0x03530002": "Failed to get HBA attributes. "
+		},
+		{
+			"0x03530003": "Unexpected number of HBA ports. "
+		},
+		{
+			"0x03530004": "Failed to get HBA port attributes. "
+		},
+		{
+			"0x03530005": "HBA port not online. "
+		},
+		{
+			"0x03530006": "Failed to load referenced HBA. "
+		},
+		{
+			"0x03530007": "WWPN already exists. "
+		},
+		{
+			"0x03530008": "Failed to get remote port attributes. "
+		},
+		{
+			"0x03530009": "Target port not online. "
+		},
+		{
+			"0x0353000a": "Target volume not accessible "
+		},
+		{
+			"0x0353000b": "Failed to find LUN-UID "
+		},
+		{
+			"0x0353000c": "LUN-UID already exists "
+		},
+		{
+			"0x0353000d": "Failed to register for HBA port events. "
+		},
+		{
+			"0x0353000e": "Failed to register for Target port events. "
+		},
+		{
+			"0x0353000f": "Directory already exists "
+		},
+		{
+			"0x03530010": "Failed to find target "
+		},
+		{
+			"0x03530011": "Failed to register for Volume path events. "
+		},
+		{
+			"0x03530012": "Volume not online. "
+		},
+		{
+			"0x03530013": "HBA not configured. "
+		},
+		{
+			"0x03530014": "Target not configured. "
+		},
+		{
+			"0x03530015": "HBA not configured. "
+		},
+		{
+			"0x03530016": "Invalid HBA configuration. "
+		},
+		{
+			"0x03530017": "Target not multipathed. "
+		},
+		{
+			"0x03530018": "Target not specified. "
+		},
+		{
+			"0x03530019": "Host Bus Adapter not specified. "
+		},
+		{
+			"0x0353001a": "Volume in use "
+		},
+		{
+			"0x0353001b": "Cannot disable HBA "
+		},
+		{
+			"0x0353001c": "Volume already mounted elsewhere "
+		},
+		{
+			"0x02730001": "Incorrect poll directory provided. "
+		},
+		{
+			"0x02730002": "No file match pattern was provided. "
+		},
+		{
+			"0x02730003": "Memory could not be allocated for current transaction. "
+		},
+		{
+			"0x02730004": "Poll sequence allocation error. "
+		},
+		{
+			"0x02730005": "File rename failed. "
+		},
+		{
+			"0x02730006": "File open failed. "
+		},
+		{
+			"0x02730007": "File delete failed. "
+		},
+		{
+			"0x02730008": "Poll transaction initiation failed. "
+		},
+		{
+			"0x02760009": "Poll sequence did not find any files. "
+		},
+		{
+			"0x0273000a": "Poll sequence returned an incorrect file listing. "
+		},
+		{
+			"0x0276000b": "Poll sequence did not find a matching file. "
+		},
+		{
+			"0x0273000c": "File close failed. "
+		},
+		{
+			"0x0273000d": "Result file name pattern was not provided. "
+		},
+		{
+			"0x0273000e": "SSH Client Connection not configured for SFTP "
+		},
+		{
+			"0x02630001": "Directory missing leading slash "
+		},
+		{
+			"0x02630002": "Directory has trailing slash "
+		},
+		{
+			"0x02630003": "Directory not nested "
+		},
+		{
+			"0x02630004": "Directory too long "
+		},
+		{
+			"0x02630005": "Duplicate Directory "
+		},
+		{
+			"0x02630006": "Directory component . (dot) "
+		},
+		{
+			"0x02630007": "Directory component .. (dot-dot) "
+		},
+		{
+			"0x02630008": "Response directory not a configured virtual directory "
+		},
+		{
+			"0x02630009": "NFS mount missing "
+		},
+		{
+			"0x0263000a": "Response URL missing "
+		},
+		{
+			"0x0263000b": "Unique Filename Prefix too long "
+		},
+		{
+			"0x0263000c": "Response Suffix too long "
+		},
+		{
+			"0x0263000d": "Default Directory too long "
+		},
+		{
+			"0x0263000e": "Default Directory non-existent "
+		},
+		{
+			"0x0266000f": "FTP Control Connection Closed "
+		},
+		{
+			"0x02630010": "Close of NFS storage for FTP Server result file failed "
+		},
+		{
+			"0x02630011": "Open of remote response file failed "
+		},
+		{
+			"0x02630012": "SSL Proxy configuration missing or invalid. "
+		},
+		{
+			"0x02630013": "Persistent VFS required. "
+		},
+		{
+			"0x02630014": "Incorrect port range specified. "
+		},
+		{
+			"0x02630015": "Alternate passive IP address was not specified. "
+		},
+		{
+			"0x02630016": "SSL/TLS certificate mismatch between control and data connections "
+		},
+		{
+			"0x04d30001": "Persistent storage is not ready to be used. "
+		},
+		{
+			"0x04630001": "Invalid option "
+		},
+		{
+			"0x04630002": "Invalid option value "
+		},
+		{
+			"0x04630003": "Missing option value "
+		},
+		{
+			"0x04630004": "Internal error "
+		},
+		{
+			"0x02130001": "Invalid url-encoded data. "
+		},
+		{
+			"0x02130002": "Bad MIME format. "
+		},
+		{
+			"0x02130003": "MIME parser error. "
+		},
+		{
+			"0x02130004": "Bad name for form variable. "
+		},
+		{
+			"0x02130005": "post of multipart/form-data without boundary. "
+		},
+		{
+			"0x02130006": "post of multipart/form-data long boundary. "
+		},
+		{
+			"0x02130007": "name too long. "
+		},
+		{
+			"0x02130008": "Invalid JSON format "
+		},
+		{
+			"0x02130009": "Invalid JSON property name "
+		},
+		{
+			"0x0213000a": "Invalid JSON property value "
+		},
+		{
+			"0x0213000b": "JSON type length exceeded "
+		},
+		{
+			"0x0213000c": "JSON data structure depth exceeded "
+		},
+		{
+			"0x0213000d": "Invalid array syntax "
+		},
+		{
+			"0x0213000e": "Invalid object syntax "
+		},
+		{
+			"0x0213000f": "Invalid string syntax "
+		},
+		{
+			"0x02130010": "Invalid number syntax "
+		},
+		{
+			"0x02130011": "Invalid null syntax "
+		},
+		{
+			"0x02130012": "Invalid boolean syntax "
+		},
+		{
+			"0x02130013": "Invalid JSON encoding "
+		},
+		{
+			"0x02130014": "JSON body exceeded maximum document size "
+		},
+		{
+			"0x02120015": "Memory allocation failed "
+		},
+		{
+			"0x02120016": "Invalid JSON syntax "
+		},
+		{
+			"0x02130017": "URL contains invalid characters. "
+		},
+		{
+			"0x02130018": "JSON data structure width exceeds limit "
+		},
+		{
+			"0x02130019": "JSON unique labels count exceeds maximum value "
+		},
+		{
+			"0x00530001": "Network error "
+		},
+		{
+			"0x00530002": "Read error "
+		},
+		{
+			"0x00530003": "Write error "
+		},
+		{
+			"0x03830001": "LAN Channel IP address invalid "
+		},
+		{
+			"0x03830002": "LAN Channel IP address not IPv4 "
+		},
+		{
+			"0x03830003": "LAN Channel default gateway not on same subnet "
+		},
+		{
+			"0x03830004": "Duplicate User ID value "
+		},
+		{
+			"0x03830005": "Invalid character in user name "
+		},
+		{
+			"0x03830006": "Invalid character in password "
+		},
+		{
+			"0x03830007": "User name too long "
+		},
+		{
+			"0x03830008": "Invalid LAN Channel name "
+		},
+		{
+			"0x03830009": "Error setting configuration in BMC "
+		},
+		{
+			"0x0383000a": "LAN Channel not found in BMC "
+		},
+		{
+			"0x0383000b": "Illegal password length "
+		},
+		{
+			"0x0383000c": "Error reading configuration from BMC "
+		},
+		{
+			"0x04530001": "Local user registry required when the policy server type is 'local'. "
+		},
+		{
+			"0x04530002": "Remote user registry required when the policy server type is 'remote'. "
+		},
+		{
+			"0x04530003": "Policy Server Host required when the policy server type is 'remote'. "
+		},
+		{
+			"0x04530004": "Policy Server Port required when the policy server type is 'remote'. "
+		},
+		{
+			"0x04530005": "Policy admin password required when the policy server type is 'local'. "
+		},
+		{
+			"0x04530006": "SSL Server Lifetime required when the policy server type is 'local'. "
+		},
+		{
+			"0x04530007": "SSL Compliance required when the policy server type is 'local'. "
+		},
+		{
+			"0x04530008": "LDAP Host required when the policy server type is 'local' and the User Remote Registry Type is 'ldap_remote', or the policy server type is 'remote' and the User Remote Registry Type is 'ldap'. "
+		},
+		{
+			"0x04530009": "LDAP Port required when the policy server type is 'local' and the User Remote Registry Type is'ldap_remote', or the policy server type is 'remote' and the User Remote Registry Type is 'ldap'. "
+		},
+		{
+			"0x0453000a": "LDAP DN required when the policy server type is 'local' and the User Remote Registry Type is 'ldap_remote'. "
+		},
+		{
+			"0x0453000b": "LDAP Password required when the policy server type is 'local' and the User Remote Registry Type is 'ldap_remote'. "
+		},
+		{
+			"0x0453000c": "Either LDAP Certificate Database or Crypto Profile Credentials required when the the User Remote Registry Type is 'ldap_remote', and SSL is enabled "
+		},
+		{
+			"0x0453000e": "HTTP or HTTPS must be enabled. "
+		},
+		{
+			"0x0453000f": "HTTP Port is required when HTTP is enabled. "
+		},
+		{
+			"0x04530010": "HTTPS Port is required when HTTPS is enabled. "
+		},
+		{
+			"0x04530011": "Either SSL Key File or SSL Crypto Profile required when HTTPS is enabled. "
+		},
+		{
+			"0x04530012": "Either Junction Key File or Crypto Profile required. "
+		},
+		{
+			"0x04530013": "User Registry HTTPS Port is required when User Registry SSL is enabled. "
+		},
+		{
+			"0x04530014": "Either Key File or Crypto Profile required when User Registry SSL is enabled. "
+		},
+		{
+			"0x04530015": "Junction Type Standard is required when Junction Type is 'standard'. "
+		},
+		{
+			"0x04530016": "Junction Type Virtual is required when Junction Type is 'virtual'. "
+		},
+		{
+			"0x04530017": "Either Mutual Auth Key File or Mutual Auth Validation Credentials required. "
+		},
+		{
+			"0x04530018": "Either the Key File or Crypto Profile property is required when SSL is enabled in the Federated Directory. "
+		},
+		{
+			"0x04530019": "The Federated Directory Key File is required when the Client Certificate is specified. "
+		},
+		{
+			"0x0453001a": "Either the Key File or Crypto Profile property can be specified when SSL is enabled in the Federated Directory. "
+		},
+		{
+			"0x0453001b": "Master Instance Name is required when Cluster is Master is not enabled. "
+		},
+		{
+			"0x0453001c": "Trigger URL is required when EAI Transport is not 'none'. "
+		},
+		{
+			"0x0453001d": "Audit Log Type is required when Audit Log is enabled. "
+		},
+		{
+			"0x0453001e": "Local Response Redirect URI is required when Local Response Redirect is enabled. "
+		},
+		{
+			"0x0453001f": "Master Authentication Server is required when Is Master Authentication Server is not selected. "
+		},
+		{
+			"0x04530020": "User Name is required when Basic Authentication is enabled. "
+		},
+		{
+			"0x04530021": "Password or Password Alias is required when Basic Authentication is enabled. "
+		},
+		{
+			"0x04530022": "GSO Resource or Group is required when HTTP Basic Authentication Header is set to 'GSO'. "
+		},
+		{
+			"0x04530023": "LDAP Certificate Database required when the the User Remote Registry Type is 'ldap_remote', and SSL is enabled "
+		},
+		{
+			"0x04530024": "SSL Key File required when HTTPS is enabled. "
+		},
+		{
+			"0x04530025": "Key File required when User Registry SSL is enabled. "
+		},
+		{
+			"0x04530026": "Key File property is required when SSL is enabled in the Federated Directory. "
+		},
+		{
+			"0x04530027": "Mutual Auth Key File required. "
+		},
+		{
+			"0x04530028": "Either Basic Auth or Mutual Auth can be enabled. "
+		},
+		{
+			"0x04530029": "Target Back-end Server configuration is required. "
+		},
+		{
+			"0x0453002a": "Junction Point Name must begin with slash. "
+		},
+		{
+			"0x0453002b": "Duplicate junction point names. "
+		},
+		{
+			"0x0453002c": "Junction Point Name must not begin with slash. "
+		},
+		{
+			"0x0453002d": "Local Address is invalid. "
+		},
+		{
+			"0x0453002e": "Invalid Access Manager Runtime. "
+		},
+		{
+			"0x0453002f": "Required primary local address is invalid. "
+		},
+		{
+			"0x04530030": "Required secondary local address is invalid. "
+		},
+		{
+			"0x04530031": "Client Certificate EAI URI is required when Accept Client Certificates is not set to 'never'. "
+		},
+		{
+			"0x04530032": "Certificate Data is required when Accept Client Certificates is not set to 'never'. "
+		},
+		{
+			"0x04530033": "Realm Name is required when Transport is not set to 'none'. "
+		},
+		{
+			"0x04530034": "Access Manager Junction is attached to another Access Manager Reverse Proxy. "
+		},
+		{
+			"0x04530035": "Both EAI Data and EAI URI must be set. "
+		},
+		{
+			"0x04530036": "LTPA Key File Password or Password Alias is required when LTPA Transport is not 'none'. "
+		},
+		{
+			"0x02b30001": "Login to target failed. "
+		},
+		{
+			"0x02b30002": "DNS lookup failed. "
+		},
+		{
+			"0x02b30003": "Configuration failure. "
+		},
+		{
+			"0x02b30005": "LUN already exists "
+		},
+		{
+			"0x02b30006": "bound to volume resource "
+		},
+		{
+			"0x02b30007": "invalid iscsi name "
+		},
+		{
+			"0x02b30008": "active targets "
+		},
+		{
+			"0x02b30009": "hardware adapter failure "
+		},
+		{
+			"0x04e30001": "JSONata program failed to parse. "
+		},
+		{
+			"0x04e30002": "JSONata program failed to run properly. "
+		},
+		{
+			"0x00360001": "Pending "
+		},
+		{
+			"0x00330002": "Memory full "
+		},
+		{
+			"0x00330003": "Invalid class "
+		},
+		{
+			"0x00330004": "Invalid name "
+		},
+		{
+			"0x00330005": "Required property is missing "
+		},
+		{
+			"0x00330007": "Cannot find configuration object "
+		},
+		{
+			"0x00330008": "Cannot remove referenced configuration object "
+		},
+		{
+			"0x00330009": "Cannot install XML management interface "
+		},
+		{
+			"0x0033000b": "Too many arguments "
+		},
+		{
+			"0x0033000c": "Configuration is not valid "
+		},
+		{
+			"0x0034000d": "Object is disabled "
+		},
+		{
+			"0x0036000e": "Required referenced object not up "
+		},
+		{
+			"0x00360010": "No CRLs configured "
+		},
+		{
+			"0x00340011": "No matching rules configured "
+		},
+		{
+			"0x00340012": "No nameserver configured "
+		},
+		{
+			"0x00360013": "Configured. "
+		},
+		{
+			"0x00350014": "Operational state up "
+		},
+		{
+			"0x00350015": "Operational state down "
+		},
+		{
+			"0x00350016": "Service installed on port "
+		},
+		{
+			"0x00340017": "Service removed from port "
+		},
+		{
+			"0x00340018": "Local configuration modified by script "
+		},
+		{
+			"0x00330019": "Operation state transition to up failed "
+		},
+		{
+			"0x0033001a": "Operation state transition to down failed "
+		},
+		{
+			"0x0033001b": "DataGlue is not licensed for this device "
+		},
+		{
+			"0x0033001c": "Maximum number allocated "
+		},
+		{
+			"0x0033001d": "Duplicate category "
+		},
+		{
+			"0x0033001e": "Invalid remote login "
+		},
+		{
+			"0x0036001f": "Interface registered with network dependent configuration queue "
+		},
+		{
+			"0x00360020": "Network dependent configuration queue max wait time reached "
+		},
+		{
+			"0x00360021": "Network dependent configuration executed "
+		},
+		{
+			"0x00350022": "The object has not processed any configuration "
+		},
+		{
+			"0x00330023": "PKCS7-SMIME is not licensed for this device "
+		},
+		{
+			"0x00330024": "SQL is not licensed for this device "
+		},
+		{
+			"0x00330025": "SQL Data Source object failed to start "
+		},
+		{
+			"0x00360026": "Domain is down "
+		},
+		{
+			"0x00340027": "Multistep Probe enabled "
+		},
+		{
+			"0x00340028": "Configuration is deleted "
+		},
+		{
+			"0x00330029": "Processing Policy is not valid "
+		},
+		{
+			"0x0036002a": "Object deletion in progress "
+		},
+		{
+			"0x0033002b": "Cannot release referenced configuration object "
+		},
+		{
+			"0x0033002c": "Cannot find referenced configuration object "
+		},
+		{
+			"0x0033002d": "Cannot undo last configuration change "
+		},
+		{
+			"0x0033002e": "Cannot undo new configuration "
+		},
+		{
+			"0x0033002f": "Cannot undo - configuration has not been modified "
+		},
+		{
+			"0x00300030": "Failed to access DataPower license "
+		},
+		{
+			"0x00310031": "Access Denied - use 'cancel' to exit any submode. "
+		},
+		{
+			"0x00330032": "Configuration contains reference loop "
+		},
+		{
+			"0x00330033": "Please show logs for details. "
+		},
+		{
+			"0x00330034": "Low audit disk space "
+		},
+		{
+			"0x00330035": "DPA suffix is required for the map file of the xformbin in tx dpa mode "
+		},
+		{
+			"0x00330036": "required property email-address is missing "
+		},
+		{
+			"0x00330037": "required property smtp-domain is missing "
+		},
+		{
+			"0x00330038": "required property remote-address is missing "
+		},
+		{
+			"0x00330039": "required local-address is missing "
+		},
+		{
+			"0x0033003a": "domain import failed "
+		},
+		{
+			"0x0033003b": "import url protocol not supported "
+		},
+		{
+			"0x0033003c": "There are currently insufficient resources to start the SQL endpoint "
+		},
+		{
+			"0x0036003d": "in quiescence "
+		},
+		{
+			"0x0033003e": "Cannot read or write to a URL "
+		},
+		{
+			"0x0033003f": "An internal routine could not create a temporary file. "
+		},
+		{
+			"0x00330040": "An internal routine failed during the tar process "
+		},
+		{
+			"0x00330041": "An internal routine could not open a temporary file. "
+		},
+		{
+			"0x00330042": "An internal routine could not read a temporary file. "
+		},
+		{
+			"0x00330043": "The manifest file could not be parsed. "
+		},
+		{
+			"0x00330044": "The secure-backup file and the appliance are not at the same firmware level. "
+		},
+		{
+			"0x00330045": "The secure-backup file had a checksum problem. "
+		},
+		{
+			"0x00330046": "The secure-backup file had a filesize problem. "
+		},
+		{
+			"0x00330047": "The remove of an internal directory failed. "
+		},
+		{
+			"0x00330048": "The configuration file could not be linked to. "
+		},
+		{
+			"0x00330049": "cannot set Common Criteria mode "
+		},
+		{
+			"0x0033004a": "Cannot generate ephemeral key "
+		},
+		{
+			"0x0033004b": "Cannot find a required file "
+		},
+		{
+			"0x0033004c": "Secure backup restore filesize mismatch "
+		},
+		{
+			"0x0033004d": "The secure-restore had a checksum mismatch with the manifest information "
+		},
+		{
+			"0x0034004e": "The secure-backup or secure-restore issued informational log entries. "
+		},
+		{
+			"0x0033004f": "An encryption failure occurred. "
+		},
+		{
+			"0x00330050": "An decryption failure occurred. "
+		},
+		{
+			"0x00330051": "The protocol specified is not supported "
+		},
+		{
+			"0x00330052": "The secure backup file has a mount mismatch "
+		},
+		{
+			"0x00330053": "An invalid path is specified for raid "
+		},
+		{
+			"0x00330054": "An invalid path is specified for iscsi "
+		},
+		{
+			"0x00330055": "Previous attempt to generate error report failed "
+		},
+		{
+			"0x00330056": "The secure-restore manifest file could not be verified with it's signature "
+		},
+		{
+			"0x00330057": "There is insufficient space to complete the secure-restore "
+		},
+		{
+			"0x00360058": "The secure-restore validation is complete "
+		},
+		{
+			"0x00330059": "The secure-restore manifest file has been corrupted "
+		},
+		{
+			"0x0033005a": "Failure Notification tcp connection validation failed "
+		},
+		{
+			"0x0033005b": "Request timed out due to inactivity "
+		},
+		{
+			"0x0033005c": "The configuration could not be parsed. "
+		},
+		{
+			"0x0033005d": "A domain name and compact flash directory name conflict. "
+		},
+		{
+			"0x0033005e": "The domain name and RAID directory name conflict. "
+		},
+		{
+			"0x0033005f": "The domain name and iSCSI directory name conflict. "
+		},
+		{
+			"0x00330060": "The domain name and Fibre Channel directory name conflict. "
+		},
+		{
+			"0x00330061": "A dependent object could not be found "
+		},
+		{
+			"0x00330062": "Invalid threshold type "
+		},
+		{
+			"0x00330063": "Invalid algorithm type "
+		},
+		{
+			"0x00330064": "Cannot install Interop Service. "
+		},
+		{
+			"0x00330065": "Invalid start/stop date range "
+		},
+		{
+			"0x00330066": "The number of parameters for the saved search query exceeds the maximum limit. "
+		},
+		{
+			"0x00330067": "Key is not sufficient for the operations. "
+		},
+		{
+			"0x00330068": "One or more of the clients is misconfigured for the purpose. "
+		},
+		{
+			"0x00330069": "Data does not meet length requirement. "
+		},
+		{
+			"0x0033006a": "Invalid time period specified. "
+		},
+		{
+			"0x0033006b": "Invalid XML bytes scanned specified "
+		},
+		{
+			"0x0033006c": "System Identifier in System Settings is too long, must be 64 characters or less "
+		},
+		{
+			"0x0033006d": "Cannot extract the language pack. "
+		},
+		{
+			"0x0033006e": "Cannot modify language settings. "
+		},
+		{
+			"0x0033006f": "Authorization grant type is not supported for the client type. "
+		},
+		{
+			"0x00330070": "Invalid refresh_token value specified. "
+		},
+		{
+			"0x00330071": "Configuration error in XML Management Interface. "
+		},
+		{
+			"0x00330072": "Configuration error in WSRR Server. "
+		},
+		{
+			"0x00330073": "Configuration error in WSRR Server. "
+		},
+		{
+			"0x00330074": "A subscription of type WSDL or Concept requires a value for Namespace. "
+		},
+		{
+			"0x00330075": "A subscription type of Service Version requires WSRR server version 8.0.2 or greater. "
+		},
+		{
+			"0x00330076": "Specified Mode requires an Error Rule of direction 'Error'. "
+		},
+		{
+			"0x00330077": "Specified Mode requires a valid URL. "
+		},
+		{
+			"0x00330078": "Invalid Response Code number. "
+		},
+		{
+			"0x00350079": "Domain is open for e-Business "
+		},
+		{
+			"0x0036007a": "Cannot disable English. "
+		},
+		{
+			"0x0033007b": "APOP authentication cannot be configured due to crypto mode "
+		},
+		{
+			"0x0033007c": "The specified crypto algorithm cannot be configured or used due to crypto mode "
+		},
+		{
+			"0x0033007d": "The secure-backup file and the appliance do not have the same crypto mode "
+		},
+		{
+			"0x0033007e": "The object is currently locked for changes "
+		},
+		{
+			"0x0036007f": "Cannot disable the language that is the system locale. "
+		},
+		{
+			"0x00330080": "No custom method configured "
+		},
+		{
+			"0x00330081": "Cannot disable Audit Log. "
+		},
+		{
+			"0x00330082": "The ISAM runtime feature is not licensed for this device. "
+		},
+		{
+			"0x00330083": "The ISAM Runtime feature is not installed on this device. "
+		},
+		{
+			"0x00330084": "A runtime configuration operation failed. "
+		},
+		{
+			"0x00330085": "The transaction queue is blocked as the runtime is down. "
+		},
+		{
+			"0x00360086": "The Access Manager Reverse Proxy has shut down "
+		},
+		{
+			"0x00330087": "Invalid properties detected. "
+		},
+		{
+			"0x00330088": "Cannot add one or more password aliases. "
+		},
+		{
+			"0x00330089": "Cannot delete one or more password aliases. "
+		},
+		{
+			"0x0033008a": "Cannot save the password alias map file. "
+		},
+		{
+			"0x0033008b": "The source appliance is not compatible with the target appliance. See the help for the support matrix between different machine type models. "
+		},
+		{
+			"0x0033008c": "Cannot resolve the password alias. "
+		},
+		{
+			"0x0033008d": "A runtime unconfiguration operation failed. "
+		},
+		{
+			"0x0033008e": "A reverse proxy unconfiguration operation failed. "
+		},
+		{
+			"0x0035008f": "Operational state down pending "
+		},
+		{
+			"0x00330090": "The licensed features are not the same on the secure backup and target appliances. See logs for more detail "
+		},
+		{
+			"0x00330091": "A SSL proxy profile is not configured correctly for this service. "
+		},
+		{
+			"0x00330092": "Failed to configure a reverse proxy. "
+		},
+		{
+			"0x00330093": "Failed to configure a reverse proxy junction. "
+		},
+		{
+			"0x00330094": "Invalid reverse proxy properties detected. "
+		},
+		{
+			"0x00330095": "The object is of a class that cannot be modified "
+		},
+		{
+			"0x00330096": "Cannot disable RBM Settings. "
+		},
+		{
+			"0x00330097": "The password value cannot be empty "
+		},
+		{
+			"0x00330098": "Claim check cannot contain iss check "
+		},
+		{
+			"0x00330099": "JWT Validator does not contain iss check "
+		},
+		{
+			"0x0033009a": "JWT Validator does not contain aud check "
+		},
+		{
+			"0x0033009b": "Only verify or custom check is allowed "
+		},
+		{
+			"0x0033009c": "JWT Grant Validator does not contain iss check "
+		},
+		{
+			"0x0033009d": "JWT Grant Validator does not contain aud check "
+		},
+		{
+			"0x0033009e": "JWT Grant Validator does not contain verify check "
+		},
+		{
+			"0x0033009f": "Only authorization code and implicit grant type support OIDC "
+		},
+		{
+			"0x003300a0": "The aud claim and iat claim must be specified as required by OIDC "
+		},
+		{
+			"0x003300a1": "Invalid threshold interval "
+		},
+		{
+			"0x003300a2": "Cannot decrypt with the identification credentials "
+		},
+		{
+			"0x003300a3": "Missing an OAuth grant type "
+		},
+		{
+			"0x003300a4": "Cannot connect to target "
+		},
+		{
+			"0x003300a5": "Failed to connect to port "
+		},
+		{
+			"0x003300a6": "Failed to connect to host "
+		},
+		{
+			"0x003300a7": "Protocol connection failure "
+		},
+		{
+			"0x003300a8": "The DFDL feature is not on the DataPower Gateway. "
+		},
+		{
+			"0x003600a9": "Management action processed with errors. "
+		},
+		{
+			"0x003300aa": "Passphrase is missing. "
+		},
+		{
+			"0x003300ab": "Cannot encrypt the password. "
+		},
+		{
+			"0x003300ac": "Cannot decrypt the encrypted password. "
+		},
+		{
+			"0x003300ad": "Encrypted password failed to decrypt. "
+		},
+		{
+			"0x003300ae": "Tenant start failed. "
+		},
+		{
+			"0x003300af": "Tenant stop failed. "
+		},
+		{
+			"0x003300b0": "Tenant restart failed. "
+		},
+		{
+			"0x003300b1": "Tenant Telnet configuration error. "
+		},
+		{
+			"0x003300b2": "Tenant SSH configuration error. "
+		},
+		{
+			"0x003300b3": "Tenant web management configuration error. "
+		},
+		{
+			"0x003300b4": "Tenant XML management configuration error. "
+		},
+		{
+			"0x003300b5": "Tenant REST management configuration error. "
+		},
+		{
+			"0x003300b6": "Cannot disable the GatewayScript settings configuration "
+		},
+		{
+			"0x003300b7": "Tenant CPU threads exceeded the maximum for the platform. "
+		},
+		{
+			"0x003300b8": "No caching mechanism for one-time use access tokens. "
+		},
+		{
+			"0x003300b9": "Tenant memory exceeded the maximum for the platform. "
+		},
+		{
+			"0x003300ba": "Not bound to a console "
+		},
+		{
+			"0x003500bb": "Operation state transition to up pending "
+		},
+		{
+			"0x003300bc": "Directory location does not exist. "
+		},
+		{
+			"0x003300bd": "At least one response header is required "
+		},
+		{
+			"0x003300be": "ILMT requires a system name to be defined. "
+		},
+		{
+			"0x00630001": "Internal error "
+		},
+		{
+			"0x00630002": "No root part in MIME message "
+		},
+		{
+			"0x00630003": "No content-id in DIME attachment "
+		},
+		{
+			"0x00630004": "An attachment exceeded the size limit imposed by attachment-byte-count "
+		},
+		{
+			"0x00630005": "Virus Detected "
+		},
+		{
+			"0x00630006": "Root part not first "
+		},
+		{
+			"0x00630007": "An attachment package exceeded the size limit imposed by attachment-package-byte-count "
+		},
+		{
+			"0x00630008": "An inbound multipart/signed message was not correctly formatted. "
+		},
+		{
+			"0x00a30001": "Unimplemented feature "
+		},
+		{
+			"0x00a60002": "Message rejection "
+		},
+		{
+			"0x00a60003": "Message shaped "
+		},
+		{
+			"0x01330001": "internal error "
+		},
+		{
+			"0x01330002": "backend server error "
+		},
+		{
+			"0x01330003": "request multistep processing failure "
+		},
+		{
+			"0x01330004": "response multistep processing failure "
+		},
+		{
+			"0x01330005": "could not send request "
+		},
+		{
+			"0x01330006": "could not receive response "
+		},
+		{
+			"0x01330007": "could not connect to the back QM "
+		},
+		{
+			"0x01330008": "could not enable listener (client port not set) "
+		},
+		{
+			"0x01330009": "could not enable listener "
+		},
+		{
+			"0x0133000a": "rejected by monitor filter "
+		},
+		{
+			"0x0133000b": "QM down "
+		},
+		{
+			"0x0133000c": "The unit-of-work was backed out (Reason Code 2003) "
+		},
+		{
+			"0x0133000d": "Connection was broken (Reason Code 2009) "
+		},
+		{
+			"0x0131000e": "Could not send, message is too large (Reason Code 2010) "
+		},
+		{
+			"0x0133000f": "MQGET is not allowed on this queue (Reason Code 2016) "
+		},
+		{
+			"0x01330010": "The get or put call failed due to QM transactionality limit (Reason Code 2024) "
+		},
+		{
+			"0x01330011": "A new connection could not be opened (Reason Code 2025) "
+		},
+		{
+			"0x01330012": "The message could not be put on the queue (Reason Code 2030) "
+		},
+		{
+			"0x01330013": "The get call timed out before receiving any messages (Reason Code 2033) "
+		},
+		{
+			"0x01330014": "The call failed due to permissions for this user (Reason Code 2035) "
+		},
+		{
+			"0x01330015": "The call failed because the queue is in use (Reason Code 2042) "
+		},
+		{
+			"0x01330016": "The call failed because the options for this call are invalid (Reason Code 2045) "
+		},
+		{
+			"0x01330017": "Could not send, message priority is too high (Reason Code 2049) "
+		},
+		{
+			"0x01330018": "Could not send, MQPUT is not allowed (Reason Code 2051) "
+		},
+		{
+			"0x01330019": "Could not send, destination queue is full (Reason Code 2053) "
+		},
+		{
+			"0x0133001a": "Could not send due to lack of storage (Reason Code 2056) "
+		},
+		{
+			"0x0133001b": "Could not connect to the named QM (Reason Code 2058) "
+		},
+		{
+			"0x0133001c": "Could not connect to the QM (Reason Code 2059) "
+		},
+		{
+			"0x0133001d": "Could not get, truncated messages not accepted (Reason Code 2080) "
+		},
+		{
+			"0x0133001e": "Could not open the alias Q (Reason Code 2082) "
+		},
+		{
+			"0x0133001f": "Could not open, destination queue or topic object is unknown (Reason Code 2085) "
+		},
+		{
+			"0x01330020": "Could not open, remote queue manager is unknown (Reason Code 2087) "
+		},
+		{
+			"0x01330021": "Could not convert the message (Reason Code 2110) "
+		},
+		{
+			"0x01330022": "Operation failed due to quiescing QM (Reason Code 2161) "
+		},
+		{
+			"0x01330023": "Operation failed due to stopping QM (Reason Code 2162) "
+		},
+		{
+			"0x01330024": "Message was too big for the channel (Reason Code 2218) "
+		},
+		{
+			"0x01330025": "Q BackoutThreshold reached (Reason Code 2362) "
+		},
+		{
+			"0x01330026": "MQPUT call failed since segments are not supported (Reason Code 2365) "
+		},
+		{
+			"0x01330027": "SSL connection cannot be established (Reason Code 2371) "
+		},
+		{
+			"0x01330028": "SSL initialization failed due to a key repository error (Reason Code 2381) "
+		},
+		{
+			"0x01330029": "SSL has already been initialized (Reason Code 2391) "
+		},
+		{
+			"0x0133002a": "SSL configuration is not valid (Reason Code 2392) "
+		},
+		{
+			"0x0133002b": "SSL initialization has failed (Reason Code 2393) "
+		},
+		{
+			"0x0133002c": "SSL cipher suite not known (Reason Code 2400) "
+		},
+		{
+			"0x0133002d": "SSL certificate has been revoked (Reason Code 2401) "
+		},
+		{
+			"0x0133002e": "SSL certificate store error (Reason Code 2402) "
+		},
+		{
+			"0x0133002f": "SSL Key Repository conversion to SSL Proxy Profile failed "
+		},
+		{
+			"0x01330030": "No message under cursor (Reason Code 2034) "
+		},
+		{
+			"0x01330031": "Selector syntax error (Reason Code 2459) "
+		},
+		{
+			"0x01330032": "MQSUB calls are currently inhibited for the topic subscribed to. (Reason Code 2503) "
+		},
+		{
+			"0x01330033": "Invalid topic string is specified. (Reason Code 2425) "
+		},
+		{
+			"0x01330034": "The topic of the subscriptions cannot be changed. (Reason Code 2510) "
+		},
+		{
+			"0x01330035": "The sublevel of the subscriptions cannot be changed. (Reason Code 2512) "
+		},
+		{
+			"0x01330036": "The named subscription is in used by another application. (Reason Code 2429) "
+		},
+		{
+			"0x01330037": "The subscription named in the MQSUB call is invalid. (Reason Code 2523) "
+		},
+		{
+			"0x01330038": "The SelectionString of the subscriptions cannot be changed. (Reason Code 2524) "
+		},
+		{
+			"0x01330039": "The destination class of the subscriptions cannot be changed. (Reason Code 2533) "
+		},
+		{
+			"0x0133003a": "An MQSUB call using the MQSO_DURABLE option failed. (Reason Code 2436) "
+		},
+		{
+			"0x0133003b": "The selector is always false. (Reason 2504) "
+		},
+		{
+			"0x0133003c": "The function, ex: MQSUB() or MQSTAT() requested is not available in the current environment. (Reason Code 2298) "
+		},
+		{
+			"0x0133003d": "Failed to deliver the publication to one of the subscribers. (Reason Code 2502) "
+		},
+		{
+			"0x0133003e": "A looping publication has been detected and put onto the dead-letter queue. (Reason Code 2541) "
+		},
+		{
+			"0x0133003f": "Failed for some of the destinations in an MQOPEN or MQPUT call using a distribution list. (Reason Code 2136) "
+		},
+		{
+			"0x01330040": "Transfer fails due to front side error. "
+		},
+		{
+			"0x01330041": "Transfer fails due to maximum message size too small. "
+		},
+		{
+			"0x01330042": "The selected IBM MQ SSL Cipher is not supported for the specified protocol option "
+		},
+		{
+			"0x00c30001": "Parse Error, XML not well formed "
+		},
+		{
+			"0x00c30002": "Compilation error "
+		},
+		{
+			"0x00c30003": "XML not schema valid "
+		},
+		{
+			"0x00c30004": "Missing URL in XSL PI "
+		},
+		{
+			"0x00c30005": "Bad URL in XSL PI "
+		},
+		{
+			"0x00c30006": "Illegal protocol in XSL PI "
+		},
+		{
+			"0x00c30007": "Attachments not allowed "
+		},
+		{
+			"0x00c30008": "Missing input on action "
+		},
+		{
+			"0x00c30009": "Unknown rule in CALL "
+		},
+		{
+			"0x00c3000a": "Convert-HTTP failed to parse the CGI query arguments provided "
+		},
+		{
+			"0x00c3000b": "Invalid xpath expression "
+		},
+		{
+			"0x00c3000c": "Context does not exist "
+		},
+		{
+			"0x00c3000d": "Variable does not exist on that context or has invalid name "
+		},
+		{
+			"0x00c3000e": "Cannot read from OUTPUT "
+		},
+		{
+			"0x00c3000f": "Invalid URL "
+		},
+		{
+			"0x00c30010": "Internal Error "
+		},
+		{
+			"0x00c60011": "On-Error Rule Triggered "
+		},
+		{
+			"0x00c30012": "INPUT not available or cannot be used this way "
+		},
+		{
+			"0x00c30013": "External URL had DNS failure "
+		},
+		{
+			"0x00c30014": "External URL unreachable "
+		},
+		{
+			"0x00c30015": "External URL timed out "
+		},
+		{
+			"0x00c30016": "External URL protocol Error "
+		},
+		{
+			"0x00c30017": "External URL network failure "
+		},
+		{
+			"0x00c30018": "Style sheet failed to stream "
+		},
+		{
+			"0x00c30019": "CALL recursive depth too deep "
+		},
+		{
+			"0x00c3001a": "CALL rule is not operational "
+		},
+		{
+			"0x00c3001b": "Binary style sheet is incompatible with non-binary processing action "
+		},
+		{
+			"0x00c3001c": "Multiple attachment packages were written to the output context "
+		},
+		{
+			"0x00c3001d": "Root part not first in streaming conformance mode "
+		},
+		{
+			"0x00c3001e": "Loop/conditional action recursive depth too deep "
+		},
+		{
+			"0x00c3001f": "Unknown action "
+		},
+		{
+			"0x00c30020": "Event-sink waiting on synchronous action "
+		},
+		{
+			"0x00c30021": "Event-sink timeout "
+		},
+		{
+			"0x00c30022": "dpa runtime error "
+		},
+		{
+			"0x00c30023": "convert-http unknown URL "
+		},
+		{
+			"0x00c30024": "Input message not signed "
+		},
+		{
+			"0x00c30025": "Parse Error, invalid JSON "
+		},
+		{
+			"0x00c30026": "Invalid digest algorithm for CMS message verification "
+		},
+		{
+			"0x00c30027": "GatewayScript feature is disabled "
+		},
+		{
+			"0x00c30028": "dp:set-variable called with an empty XPath 2.0 sequence, while it expected a single item or a sequence of a single item. "
+		},
+		{
+			"0x00c30029": "dp:set-variable called with an XPath 2.0 sequence with more than one item, while it expected to be called with a single item or a sequence of a single item. "
+		},
+		{
+			"0x00c3002a": "Input data type is not XML or JSON. "
+		},
+		{
+			"0x00c3002b": "Parse action for XML found data that is not XML. "
+		},
+		{
+			"0x00c3002c": "Parse action for JSON found data that is not JSON. "
+		},
+		{
+			"0x00c3002d": "Parse action cannot identify the type of parse to execute. "
+		},
+		{
+			"0x00c3002e": "Parse Action can not find input data to parse "
+		},
+		{
+			"0x00c3002f": "Parse Action failed a binary parse "
+		},
+		{
+			"0x00c30030": "Input is missing for the action. The action expects parsed data as valid input. "
+		},
+		{
+			"0x00c30031": "Failed to resolve the parse settings reference for the parse action. "
+		},
+		{
+			"0x00c30032": "Cannot find a valid API Gateway. "
+		},
+		{
+			"0x00c30033": "Cannot identify any API target when performing the API Routing action "
+		},
+		{
+			"0x00c30034": "Cannot pass the client identification check that is required by the target API or operation. "
+		},
+		{
+			"0x00c30035": "Cannot find the API information for the API rate limit action. "
+		},
+		{
+			"0x00c30036": "No plan is available for API requests with no API key. "
+		},
+		{
+			"0x00c30037": "Cannot enforce the rate limit for unknown subscriber "
+		},
+		{
+			"0x00c30038": "Cannot find valid subscription for the incoming API request. "
+		},
+		{
+			"0x00c30039": "The API request is rejected because of errors from the API rate limit action. "
+		},
+		{
+			"0x00c3003a": "Cannot pass the security checks that are required by the target API or operation, Enable debug headers for more details. "
+		},
+		{
+			"0x00c3003b": "Cannot find the API information for the API Execute action. "
+		},
+		{
+			"0x00c3003c": "The target url returned an operation error. "
+		},
+		{
+			"0x00c3003d": "The target url returned an soap fault. "
+		},
+		{
+			"0x00c3003e": "Failed to connect to the target url. "
+		},
+		{
+			"0x00c3003f": "The assembly throw action ended the current assembly rule. "
+		},
+		{
+			"0x00c30040": "Failed to set variables. "
+		},
+		{
+			"0x00c30041": "The assembly switch action failed. "
+		},
+		{
+			"0x00c30042": "Failed to execute a stylesheet "
+		},
+		{
+			"0x00c30043": "A transformation error indicates a failure of stylesheet execution. "
+		},
+		{
+			"0x00c30044": "Failed to process the GatewayScript file. "
+		},
+		{
+			"0x00c30045": "Failed to use data streaming to send the response payload. "
+		},
+		{
+			"0x00c30046": "The assembly validate JWT action failed. "
+		},
+		{
+			"0x00c30047": "The assembly XSLT action is aborted at run time. "
+		},
+		{
+			"0x00c30048": "The Assembly action was given an input of JSON which is not allowed for this action. "
+		},
+		{
+			"0x00c60049": "The Assembly action requests the current assembly rule to complete early. "
+		},
+		{
+			"0x00c3004a": "The assembly OAuth Generate action failed. "
+		},
+		{
+			"0x00c3004b": "The requested variable does not exist in the API Context. "
+		},
+		{
+			"0x00c3004c": "Failed to execute the assembly rule. "
+		},
+		{
+			"0x00c3004d": "The assembly Map action failed. "
+		},
+		{
+			"0x00c3004e": "Failed to resolve the oauth provider settings reference for the oauth generate action. "
+		},
+		{
+			"0x00c3004f": "The API Context was not found. "
+		},
+		{
+			"0x00c30050": "The requested field does not exist in the specified API Context variable. "
+		},
+		{
+			"0x00c30051": "Internal Error during Assembly Processing. "
+		},
+		{
+			"0x00c60052": "Early completion due to redirect response in action "
+		},
+		{
+			"0x00c30053": "The HTML form failed to generate. "
+		},
+		{
+			"0x00c30054": "The response failed to generate. "
+		},
+		{
+			"0x00c60055": "The API is suspended. "
+		},
+		{
+			"0x00c30056": "No input was found for the assembly action. "
+		},
+		{
+			"0x00c30057": "Failed to set output variable of the assembly action. "
+		},
+		{
+			"0x00c30058": "The assembly parse action failed. "
+		},
+		{
+			"0x00c30059": "The assembly generate JWT action failed. "
+		},
+		{
+			"0x00c3005a": "Invalid property. "
+		},
+		{
+			"0x00c3005b": "The input of the assembly XML to JSON action was not a parsed XML tree. "
+		},
+		{
+			"0x00c3005c": "The input of the assembly JSON to XML action was not a parsed JSON tree. "
+		},
+		{
+			"0x00c3005d": "The conversion in the assembly JSON to XML action failed. "
+		},
+		{
+			"0x00c3005e": "The API request is rejected because of no API Connect Gateway Service. "
+		},
+		{
+			"0x00c3005f": "Failed to read the payload for the stylesheet execution. "
+		},
+		{
+			"0x00c30060": "Invalid property. "
+		},
+		{
+			"0x00c30066": "Failed to execute the schema "
+		},
+		{
+			"0x00c30067": "A transformation error occurred during validation. "
+		},
+		{
+			"0x00c30068": "The Validate action input is not in a recognized format. "
+		},
+		{
+			"0x00c30069": "The Validate action input has failed validation. "
+		},
+		{
+			"0x01c30001": "Restarting CA Single Sign-On client endpoint failed. "
+		},
+		{
+			"0x01c30002": "Starting CA Single Sign-On client endpoint failed. "
+		},
+		{
+			"0x01c30003": "Agent name missing. "
+		},
+		{
+			"0x01c30004": "Agent password missing. "
+		},
+		{
+			"0x01c30005": "PolicyServer host missing. "
+		},
+		{
+			"0x01c30006": "Invalid SmHost configuration file. "
+		},
+		{
+			"0x04a30001": "Cannot load the key from the Luna HSM. "
+		},
+		{
+			"0x04a30002": "Fail to configure the Luna HSM. "
+		},
+		{
+			"0x04a30003": "Fail to configure the Luna HSM partition. "
+		},
+		{
+			"0x04a30004": "Duplicated HA label. "
+		},
+		{
+			"0x04a30005": "No members are defined for the HA group. "
+		},
+		{
+			"0x04a30006": "Fail to configure the HA group. "
+		},
+		{
+			"0x00b30002": "Failed to install on port "
+		},
+		{
+			"0x00b30004": "Invalid local address "
+		},
+		{
+			"0x00b30007": "Network Error "
+		},
+		{
+			"0x00b30009": "Host connection could not be established "
+		},
+		{
+			"0x00b7000a": "Cannot install without a service. "
+		},
+		{
+			"0x00b3000b": "Cannot install because the service is down. "
+		},
+		{
+			"0x00b30017": "Standby VIP address family does not match primary. "
+		},
+		{
+			"0x00b30018": "No Primary address defined, VIP not supported. "
+		},
+		{
+			"0x00b30019": "Default Gateway is not an IPv4 address. "
+		},
+		{
+			"0x00b3001b": "Too many members were created for this algorithm. Limit is 64. "
+		},
+		{
+			"0x00b3001c": "Too many members were created. Limit is 512. "
+		},
+		{
+			"0x00b3001d": "You must configure at least one Monitored Cookie for active-conditional mode. "
+		},
+		{
+			"0x00b3001e": "The Insertion Cookie Name contains an invalid character sequence. "
+		},
+		{
+			"0x00b3001f": "The Insertion Path contains an invalid character sequence. "
+		},
+		{
+			"0x00b30020": "The Insertion Domain contains an invalid character sequence. "
+		},
+		{
+			"0x00b30021": "One or more of the monitored cookies contains an invalid character sequence. "
+		},
+		{
+			"0x00b30022": "No host name configured for SMTP server connection "
+		},
+		{
+			"0x00b30023": "No account name configured for SMTP server connection with authentication "
+		},
+		{
+			"0x00b30024": "Invalid characters used in WLM group name "
+		},
+		{
+			"0x00b30025": "Unsupported functionality "
+		},
+		{
+			"0x00b30026": "Resource not found. Try a different URL. "
+		},
+		{
+			"0x00b30027": "Generic error "
+		},
+		{
+			"0x00b30028": "Connection error. "
+		},
+		{
+			"0x00b30029": "Error with DNS lookup. "
+		},
+		{
+			"0x00b3002a": "Error with SSL connection. "
+		},
+		{
+			"0x00b3002b": "Problem reading HTTP headers. "
+		},
+		{
+			"0x00b3002c": "Loop detection triggered. "
+		},
+		{
+			"0x00b3002d": "Error accessing document in document cache. "
+		},
+		{
+			"0x00b3002e": "exceeded allowable number of redirects "
+		},
+		{
+			"0x00b3002f": "Redirect does not have location header. "
+		},
+		{
+			"0x00b30030": "Redirect has bad body length. "
+		},
+		{
+			"0x00b30031": "Problem creating connection for redirect. "
+		},
+		{
+			"0x00b30032": "Cannot handle HTTP response code. "
+		},
+		{
+			"0x00b30033": "Protocol-framing error: SMTP or FTP. "
+		},
+		{
+			"0x00b30034": "Protocol response error: SMTP or FTP. "
+		},
+		{
+			"0x00b30035": "Protocol state error: SMTP or FTP. "
+		},
+		{
+			"0x00b30036": "Port timed out. "
+		},
+		{
+			"0x00b30037": "Port error. Try again. "
+		},
+		{
+			"0x00b30038": "Redirect is to an unsupported URI schema. "
+		},
+		{
+			"0x00b30039": "Invalid local address. "
+		},
+		{
+			"0x00b3003a": "File not found. "
+		},
+		{
+			"0x00b3003b": "Packet capture already running with this file name. "
+		},
+		{
+			"0x00b3003c": "Failed to create file for packet capture. "
+		},
+		{
+			"0x00b3003d": "Failed to set up packet recording. "
+		},
+		{
+			"0x00b3003e": "Multicast IP version mismatch. "
+		},
+		{
+			"0x00b3003f": "Invalid ephemeral port range "
+		},
+		{
+			"0x00b30040": "Internal network configuration error. "
+		},
+		{
+			"0x00b30041": "Error configuring standby control. "
+		},
+		{
+			"0x00b30042": "Invalid parent for the VLAN interface. "
+		},
+		{
+			"0x00b30043": "Cannot delete the aggregation interface. "
+		},
+		{
+			"0x00b30044": "Cannot create the aggregation interface. "
+		},
+		{
+			"0x00b30045": "Cannot bind to the Ethernet interface. "
+		},
+		{
+			"0x00b30046": "Cannot change Ethernet interface configuration. It is a member of a link aggregation. "
+		},
+		{
+			"0x00b30047": "Cannot bring up the VLAN interface. "
+		},
+		{
+			"0x00b30048": "Ethernet interface is part of link aggregation. "
+		},
+		{
+			"0x00b30049": "One or more links are not in link aggregation mode. "
+		},
+		{
+			"0x00b3004a": "Cannot enable link aggregation for the Ethernet interface. "
+		},
+		{
+			"0x00b3004b": "Cannot set MTU. "
+		},
+		{
+			"0x00b3004c": "Cannot set IP address. "
+		},
+		{
+			"0x00b3004d": "Cannot set static route. "
+		},
+		{
+			"0x00b3004e": "Cannot define interface isolate. "
+		},
+		{
+			"0x00b3004f": "Cannot define the virtual IP address. "
+		},
+		{
+			"0x00b30050": "Cannot define MAC address. "
+		},
+		{
+			"0x00b30051": "Cannot define Ethernet mode. "
+		},
+		{
+			"0x00b30052": "Cannot define VLAN priority. "
+		},
+		{
+			"0x00b30053": "Attempted to aggregate an ineligible member. "
+		},
+		{
+			"0x00b30054": "Cannot add member to aggregation. "
+		},
+		{
+			"0x00b30055": "Invalid interface name. "
+		},
+		{
+			"0x00b30056": "Manual mode not supported. "
+		},
+		{
+			"0x00b30057": "No virtual IP address for standby control. "
+		},
+		{
+			"0x00b30058": "Virtual IP addresses for standby control must be IPv4. "
+		},
+		{
+			"0x00b30059": "Cannot disable ICMP. "
+		},
+		{
+			"0x00b3005a": "Cannot configure ECN. "
+		},
+		{
+			"0x00b3005b": "Cannot configure TCP attempts. "
+		},
+		{
+			"0x00b3005c": "Cannot configure ARP interval. "
+		},
+		{
+			"0x00b3005d": "Cannot configure ARP attempts. "
+		},
+		{
+			"0x00b3005e": "Cannot configure destination routing. "
+		},
+		{
+			"0x00b3005f": "Cannot configure interface isolation. "
+		},
+		{
+			"0x00b30060": "Cannot configure reverse path filtering. "
+		},
+		{
+			"0x00b30061": "Cannot configure TCP window scaling. "
+		},
+		{
+			"0x00b30062": "Cannot configure flow control. "
+		},
+		{
+			"0x00b30063": "Interface configuration supports only one mode. "
+		},
+		{
+			"0x00b30064": "Cannot define static routes or default gateways without primary or secondary IP addresses. "
+		},
+		{
+			"0x00b30065": "Cannot define secondary IP address without a primary IP address. "
+		},
+		{
+			"0x00b30066": "Cannot configure standby control without a primary IP address. "
+		},
+		{
+			"0x00b30067": "Cannot create the vlan interface "
+		},
+		{
+			"0x00b30068": "Interface does not exist "
+		},
+		{
+			"0x00b60069": "Reconfiguring VLAN "
+		},
+		{
+			"0x00b3006a": "Cannot change the state of the kernel interface "
+		},
+		{
+			"0x00b3006b": "The GET method is required for WebSocket upgrade. "
+		},
+		{
+			"0x00b3006c": "HTTP 1.1 is required for WebSocket upgrade. "
+		},
+		{
+			"0x00b3006d": "HTTP 1.1 response version is required for WebSocket upgrade. "
+		},
+		{
+			"0x00b3006e": "Cannot configure standby control because it is not enabled in the installation package configuration file, /opt/ibm/datapower/datapower.conf. "
+		},
+		{
+			"0x00b3006f": "Cannot configure HTTP/2 support using SSL proxy profile. "
+		},
+		{
+			"0x00b30070": "Cannot configure HTTP/2 support without TLS 1.2 protocol. "
+		},
+		{
+			"0x00b30071": "Cannot configure HTTP/2 support without a supported cipher. "
+		},
+		{
+			"0x00b30072": "Cannot upgrade http to HTTP/2 with another protocol. "
+		},
+		{
+			"0x00b30073": "Cannot configure HTTP/2 support with an SSL server profile which has compression enabled. "
+		},
+		{
+			"0x00b30074": "Cannot configure HTTP/2 support with an SSL server profile which has renegotiation enabled. "
+		},
+		{
+			"0x00b30075": "Document cache import cannot find the necessary metadata to complete the operation. "
+		},
+		{
+			"0x00b30076": "Internal error while exporting the document cache. "
+		},
+		{
+			"0x00b30077": "The referenced document cache cannot be found. "
+		},
+		{
+			"0x01f30001": "Invalid syntax for remote NFS mount point. "
+		},
+		{
+			"0x01f30002": "Remote NFS mount point required. "
+		},
+		{
+			"0x01f30003": "This NFS mount point is broken with an internal error. "
+		},
+		{
+			"0x01f30004": "The NFS Client is globally disabled. "
+		},
+		{
+			"0x01f30005": "The NFS static mount is down. "
+		},
+		{
+			"0x01f60006": "Configuration change(s) pending asynchronous completion. "
+		},
+		{
+			"0x00e30001": "NTP - Cannot Resolve Server Name "
+		},
+		{
+			"0x00e30002": "NTP - Invalid Server Address "
+		},
+		{
+			"0x00e40003": "NTP Resource Error "
+		},
+		{
+			"0x00e40004": "NTP Naming Error "
+		},
+		{
+			"0x00e40005": "NTP Sending Error "
+		},
+		{
+			"0x00e40006": "NTP Receive Error "
+		},
+		{
+			"0x00e40007": "NTP Source Error "
+		},
+		{
+			"0x00e40008": "NTP Timeout Error "
+		},
+		{
+			"0x00e4000a": "No NTP servers are configured "
+		},
+		{
+			"0x00e4000b": "NTP error response "
+		},
+		{
+			"0x04c30001": "Authorization code grant not supported "
+		},
+		{
+			"0x04c30002": "Implicit grant not supported "
+		},
+		{
+			"0x04c30003": "Unknown response type to the authorization endpoint "
+		},
+		{
+			"0x04c30004": "Missing response type to the authorization endpoint "
+		},
+		{
+			"0x04c30005": "GET or POST method not used "
+		},
+		{
+			"0x04c30006": "Missing client ID "
+		},
+		{
+			"0x04c30007": "POST method not used "
+		},
+		{
+			"0x04c30008": "Resource owner password credentials grant not supported "
+		},
+		{
+			"0x04c30009": "Client credentials grant not supported "
+		},
+		{
+			"0x04c3000a": "Refresh token not enabled "
+		},
+		{
+			"0x04c3000b": "Unknown grant type to the token endpoint "
+		},
+		{
+			"0x04c3000c": "Missing grant type to the token endpoint "
+		},
+		{
+			"0x04c3000d": "Missing authorization code "
+		},
+		{
+			"0x04c3000e": "Missing username "
+		},
+		{
+			"0x04c3000f": "Missing password "
+		},
+		{
+			"0x04c30010": "Missing refresh token "
+		},
+		{
+			"0x04c30011": "Missing token "
+		},
+		{
+			"0x04c30012": "Only access tokens are supported for introspection "
+		},
+		{
+			"0x04c30013": "Parameter found more than once in a single location "
+		},
+		{
+			"0x04c30014": "Parameter found in the wrong location "
+		},
+		{
+			"0x04c30015": "Parameter found in more than one location "
+		},
+		{
+			"0x04c30016": "Request is invalid "
+		},
+		{
+			"0x04c30017": "Invalid bearer token. Unable to retrieve client id from it. "
+		},
+		{
+			"0x04c30018": "No bearer token found "
+		},
+		{
+			"0x04c30019": "Missing OAuth provider settings configuration "
+		},
+		{
+			"0x04c3001a": "Implicit grant not supported in the OAuth provider "
+		},
+		{
+			"0x04c3001b": "Resource owner password credentials grant not supported in the OAuth provider "
+		},
+		{
+			"0x04c3001c": "Client credentials grant not supported in the OAuth provider "
+		},
+		{
+			"0x04c3001d": "Authorization code grant not supported in the OAuth provider "
+		},
+		{
+			"0x04c3001e": "The OAuth security definition has scopes that are not configured in the OAuth provider. "
+		},
+		{
+			"0x04c3001f": "The OAuth security requirement has scopes that are not configured in the OAuth security definition "
+		},
+		{
+			"0x04c30020": "HTTPS not being used "
+		},
+		{
+			"0x04c30021": "Token introspection not enabled "
+		},
+		{
+			"0x04c30022": "The request endpoint is not configured for handling OAuth requests. "
+		},
+		{
+			"0x04c30023": "Missing client secret "
+		},
+		{
+			"0x04c30024": "Public client type not supported "
+		},
+		{
+			"0x04c30025": "Confidential client type not supported "
+		},
+		{
+			"0x04c30026": "Invalid Client ID or secret, or client not subscribed to this API "
+		},
+		{
+			"0x04c30027": "Although this client is subscribed to this API and passed the API key security check, the client ID does not match with the ID in the access token. "
+		},
+		{
+			"0x04c30028": "Redirect URI missing "
+		},
+		{
+			"0x04c30029": "Redirect URI specified in the request is not configured in the client subscription "
+		},
+		{
+			"0x04c3002a": "Missing scope in the request "
+		},
+		{
+			"0x04c3002b": "Scope is not allowed "
+		},
+		{
+			"0x04c3002c": "Resource owner denied or not found "
+		},
+		{
+			"0x04c3002d": "OAuth failed to process your request "
+		},
+		{
+			"0x04c3002e": "Unknown response format "
+		},
+		{
+			"0x04c3002f": "Wrong OAuth provider or incorrect provider base path "
+		},
+		{
+			"0x04c30030": "Failed to connect to the third-party OAuth provider. "
+		},
+		{
+			"0x04c30031": "Failed to validate the request to the third-party OAuth provider. "
+		},
+		{
+			"0x04c30032": "Failed to validate the access token that the third-party OAuth provider generated. "
+		},
+		{
+			"0x04c30033": "Missing or invalid credentials to connect to the third-party OAuth provider. "
+		},
+		{
+			"0x04c30034": "Response stream is not in JSON format "
+		},
+		{
+			"0x04c30035": "OpenID Connect scope is required "
+		},
+		{
+			"0x04c30036": "OpenID Connect request not supported by OAuth Provider "
+		},
+		{
+			"0x04c30037": "Unsupported response type to the authorization endpoint "
+		},
+		{
+			"0x04c30038": "Advanced Scope Validation URL is missing "
+		},
+		{
+			"0x04c30039": "Advanced Scope Validation SSL client profile required when HTTPS selected "
+		},
+		{
+			"0x04c3003a": "Failed to connect Advanced Scope provided URL. "
+		},
+		{
+			"0x04c3003b": "Advanced Scope provided URL creation failed. "
+		},
+		{
+			"0x04c3003c": "No response from the advanced scope endpoint "
+		},
+		{
+			"0x04c3003d": "Non-200 response from advanced scope endpoint "
+		},
+		{
+			"0x04c3003e": "No JWT signing algorithm was provided in the execution context (oauth.oidc.jwt.sign.algorithm) "
+		},
+		{
+			"0x04c3003f": "An invalid JWT signing algorithm was provided in the execution context (oauth.oidc.jwt.sign.algorithm) "
+		},
+		{
+			"0x04c30040": "Third Party provider SSL client profile required. "
+		},
+		{
+			"0x04c30041": "Application is disabled. "
+		},
+		{
+			"0x04c30042": "Missing nonce "
+		},
+		{
+			"0x04c30043": "PKCE code challenge required "
+		},
+		{
+			"0x04c30044": "PKCE code verifier required "
+		},
+		{
+			"0x04c30045": "Invalid or unsupported PKCE code challenge method "
+		},
+		{
+			"0x04c30046": "Invalid PKCE code verifier "
+		},
+		{
+			"0x04c30047": "OAuth validation endpoint must not match OAuth provider endpoints "
+		},
+		{
+			"0x04c30048": "OAuth Provider configured incorrectly for PKCE. "
+		},
+		{
+			"0x04c30049": "Application type does not have any supported OAuth configurations "
+		},
+		{
+			"0x04c3004a": "Unsupported client and grant type combination "
+		},
+		{
+			"0x04c3004b": "Validation endpoint does not support the flow used to obtain this Bearer token "
+		},
+		{
+			"0x04c3004c": "The PKCE service is not available "
+		},
+		{
+			"0x03f30001": "Too many ODR Connector Groups. The limit is 64. "
+		},
+		{
+			"0x03f30002": "Too many custom properties. The limit is 256. "
+		},
+		{
+			"0x03f30003": "Too many Group Connectors. The limit is 16. "
+		},
+		{
+			"0x03f30004": "Too many Connector Group properties. The limit is 256. "
+		},
+		{
+			"0x03f30005": "Creation of the ODR library failed. Cleaning up. "
+		},
+		{
+			"0x03f30006": "Initialization of the ODR library failed while configuring properties. Cleaning up. "
+		},
+		{
+			"0x03f30007": "Initialization of the ODR library failed while setting properties. Cleaning up. "
+		},
+		{
+			"0x03f30008": "ODR configuration failed. Could not install connector group "
+		},
+		{
+			"0x03f30009": "ODR configuration failed. Could not start ODR libary. "
+		},
+		{
+			"0x03f3000a": "Update of ODR connector group failed during removal. "
+		},
+		{
+			"0x03f3000b": "Update of ODR connector group failed during insertion. "
+		},
+		{
+			"0x00030001": "Parse error "
+		},
+		{
+			"0x00030002": "Out of memory "
+		},
+		{
+			"0x00030003": "XML parser limits exceeded "
+		},
+		{
+			"0x00030004": "DTD encountered in SOAP context "
+		},
+		{
+			"0x00030005": "Processing instruction encountered in SOAP context "
+		},
+		{
+			"0x00030007": "Parse stopped by caller "
+		},
+		{
+			"0x00030008": "Internal Parsing Error "
+		},
+		{
+			"0x00030009": "Max node size exceeded "
+		},
+		{
+			"0x0003000a": "Forbidden external reference encountered while parsing XML "
+		},
+		{
+			"0x0003000b": "Out of memory due to max-node-size too small "
+		},
+		{
+			"0x01d30001": "AAA Authentication Failure "
+		},
+		{
+			"0x01d30002": "AAA Authorization Failure "
+		},
+		{
+			"0x01d30003": "Schema Validation Error "
+		},
+		{
+			"0x01d30004": "Reject by SLM "
+		},
+		{
+			"0x01d30005": "Virus Detected "
+		},
+		{
+			"0x01130002": "HTTP/0.9 not supported "
+		},
+		{
+			"0x01130003": "Unknown Destination "
+		},
+		{
+			"0x01130004": "Failed to process request headers "
+		},
+		{
+			"0x01130005": "Rejected by monitor filter "
+		},
+		{
+			"0x01130006": "Failed to establish a backside connection "
+		},
+		{
+			"0x01130007": "Failed to establish backside connection "
+		},
+		{
+			"0x01130008": "Lost connection with backside server "
+		},
+		{
+			"0x01130009": "Dynamic backend host not specified "
+		},
+		{
+			"0x0113000a": "Dynamic target specified unknown SSL proxy "
+		},
+		{
+			"0x0113000b": "Dynamic target specified invalid SSL proxy "
+		},
+		{
+			"0x01130010": "Cannot create back port URL "
+		},
+		{
+			"0x01130011": "Failed to process response headers "
+		},
+		{
+			"0x01130012": "Malformed version headers for HTTP request "
+		},
+		{
+			"0x01130013": "Malformed method headers for HTTP request "
+		},
+		{
+			"0x01130014": "Malformed version headers for HTTP response "
+		},
+		{
+			"0x01130016": "Request Header Too Long "
+		},
+		{
+			"0x01130017": "Response Header Too Long "
+		},
+		{
+			"0x01130018": "Connection terminated before request headers read because of the connection error occurs "
+		},
+		{
+			"0x01130019": "Connection terminated before response headers read because of the connection error occurs "
+		},
+		{
+			"0x0113001a": "Malformed headers for HTTP request "
+		},
+		{
+			"0x0113001b": "Malformed headers for HTTP response "
+		},
+		{
+			"0x0113001c": "Connection error "
+		},
+		{
+			"0x0113001d": "Configuration error "
+		},
+		{
+			"0x0113001e": "Backside URL invalid "
+		},
+		{
+			"0x0113001f": "No host header "
+		},
+		{
+			"0x01160020": "handled early "
+		},
+		{
+			"0x01130021": "Expect header failed "
+		},
+		{
+			"0x01130022": "Unterminated Submission "
+		},
+		{
+			"0x01130023": "Via Loop Detected "
+		},
+		{
+			"0x01130024": "Request did not match allowed-feature list "
+		},
+		{
+			"0x01130025": "Dynamic Routing Required "
+		},
+		{
+			"0x01130026": "Query String Length Too Long "
+		},
+		{
+			"0x01130027": "Too Many HTTP Headers "
+		},
+		{
+			"0x01130028": "Header Value Too Long "
+		},
+		{
+			"0x01130029": "Header Name Too Long "
+		},
+		{
+			"0x0113002a": "More Than One Content-Length "
+		},
+		{
+			"0x0113002b": "Get Or Head with Content-Length "
+		},
+		{
+			"0x0113002c": "Request was both length and chunked delimited "
+		},
+		{
+			"0x0113002d": "Source Protocol Handler Required "
+		},
+		{
+			"0x0113002e": "AAA required to open WS-Addressing Channel "
+		},
+		{
+			"0x0113002f": "Two-Way Exchange Pattern Required "
+		},
+		{
+			"0x01130030": "Reply Handler Required "
+		},
+		{
+			"0x01130031": "Asynchronous Reply Not Received "
+		},
+		{
+			"0x01130032": "Asynchronous Reply-To Needed "
+		},
+		{
+			"0x01130033": "Asynchronous Reply Timed Out "
+		},
+		{
+			"0x01130034": "Duplicate Message ID "
+		},
+		{
+			"0x01160035": "Local configuration changed "
+		},
+		{
+			"0x01130036": "HTTP/1.0 Get attempted with flow control enabled "
+		},
+		{
+			"0x01130037": "Flow control enabled without streaming "
+		},
+		{
+			"0x01130038": "HTTP request with Content-Type multipart/form-data attempted with flow control enabled "
+		},
+		{
+			"0x01130039": "Flow control enabled without Pass-Thru or Non-XML "
+		},
+		{
+			"0x0113003a": "Flow control enabled without chunked uploads "
+		},
+		{
+			"0x0113003b": "Connection terminated and no response headers read because of the server terminated the connection "
+		},
+		{
+			"0x0113003c": "Connection hangup "
+		},
+		{
+			"0x0113003d": "Connection timed out "
+		},
+		{
+			"0x0113003e": "The HTTP header is not terminated. "
+		},
+		{
+			"0x0113003f": "The URI field in HTTP header is missing "
+		},
+		{
+			"0x01130040": "The Version field in HTTP header is missing "
+		},
+		{
+			"0x01130041": "The Version number is invalid "
+		},
+		{
+			"0x01130042": "The Host field in HTTP header is missing "
+		},
+		{
+			"0x01130043": "Transfer-Encoding is only for HTTP/1.1 "
+		},
+		{
+			"0x01130044": "The order of 'chunked, gzip' is illegal "
+		},
+		{
+			"0x01130045": "The Content-Length is required "
+		},
+		{
+			"0x01130046": "Connection hangup when processing the inbound header "
+		},
+		{
+			"0x01130047": "Network connection error "
+		},
+		{
+			"0x01130048": "The data format is in error "
+		},
+		{
+			"0x01130049": "Error occurs when initializing the stream "
+		},
+		{
+			"0x0113004a": "Internal error "
+		},
+		{
+			"0x0113004b": "Cannot allocate enough memory for the inbound data "
+		},
+		{
+			"0x0113004c": "Errors when transcoding the data "
+		},
+		{
+			"0x0113004d": "Read data error "
+		},
+		{
+			"0x0113004e": "Write data error "
+		},
+		{
+			"0x0113004f": "Request to Web Application Firewall terminates early "
+		},
+		{
+			"0x01130050": "Content-Length value is invalid "
+		},
+		{
+			"0x01130051": "The service does not support WebSockets. "
+		},
+		{
+			"0x01130052": "The service not support custom methods. "
+		},
+		{
+			"0x01130053": "Transaction canceled because duration of transaction timeout elapsed. "
+		},
+		{
+			"0x01140054": "HTTP Client/Server Error "
+		},
+		{
+			"0x01130055": "The order of 'chunked, deflate' is illegal "
+		},
+		{
+			"0x01130056": "A compression of gzip, deflate or deflate, gzip is not supported "
+		},
+		{
+			"0x03d30001": "The deployment server is unreachable "
+		},
+		{
+			"0x03d30002": "Resource allocation error trying to reach deployment server "
+		},
+		{
+			"0x03d30003": "The deployment data file is missing "
+		},
+		{
+			"0x03d30004": "The deployment configuration request failed "
+		},
+		{
+			"0x04930001": "Persistence storage is not ready to be used. "
+		},
+		{
+			"0x04930002": "Rate threshold is exceeded. "
+		},
+		{
+			"0x04930003": "Connection error of the quota enforcement server "
+		},
+		{
+			"0x00460001": "No configured servers "
+		},
+		{
+			"0x00430002": "RADIUS opstate down due to crypto mode "
+		},
+		{
+			"0x03630001": "TCP connection to remote host could not be opened "
+		},
+		{
+			"0x03630002": "Remote server rejected authentication "
+		},
+		{
+			"0x03630003": "Remote server host key did not match a key in the SSH Client Profile known host list "
+		},
+		{
+			"0x03630004": "Remote server version is not supported "
+		},
+		{
+			"0x03630005": "The SCC component has encountered an internal error "
+		},
+		{
+			"0x03630007": "IPv6 addresses not allowed "
+		},
+		{
+			"0x03630008": "Secure Cloud Connector instance encountered a potential shortage of storage condition "
+		},
+		{
+			"0x03630009": "Secure Cloud Connector instance private key is not valid "
+		},
+		{
+			"0x0363000a": "Secure Cloud Connector instance private key is not in an operational up state "
+		},
+		{
+			"0x0363000b": "Remote host name could not be resolved "
+		},
+		{
+			"0x0363000c": "Remote server protocol version is not supported "
+		},
+		{
+			"0x0363000d": "Remote server connection terminated "
+		},
+		{
+			"0x0363000f": "Service startup failure "
+		},
+		{
+			"0x03630011": "SSH Client Connection not configured for Secure Cloud Connector "
+		},
+		{
+			"0x03630012": "SSH Client Profile is not in an operational up state "
+		},
+		{
+			"0x03630013": "Network Interface down "
+		},
+		{
+			"0x036303ee": "Remote tunnel connection timed out "
+		},
+		{
+			"0x036303f6": "Remote tun device creation failed "
+		},
+		{
+			"0x036303f8": "SSH connection failure "
+		},
+		{
+			"0x036303fc": "Remote server connection terminated "
+		},
+		{
+			"0x03430001": "ipvsadm command failed "
+		},
+		{
+			"0x03230001": "Invalid key type. "
+		},
+		{
+			"0x03230002": "Too many host keys. "
+		},
+		{
+			"0x03230003": "File does not exist. "
+		},
+		{
+			"0x03230004": "No sufficient permissions to perform operation. "
+		},
+		{
+			"0x03230005": "SFTP: Failed to perform requested operation "
+		},
+		{
+			"0x03230006": "Bad formatted SFTP packet "
+		},
+		{
+			"0x03230007": "SSH FTP Operation not supported. "
+		},
+		{
+			"0x03230008": "Virtual directory missing leading slash "
+		},
+		{
+			"0x03230009": "Virtual directory has trailing slash "
+		},
+		{
+			"0x0323000a": "Virtual directory not nested "
+		},
+		{
+			"0x0323000b": "Duplicate virtual directory name "
+		},
+		{
+			"0x0323000c": "Directory component . (dot) "
+		},
+		{
+			"0x0323000d": "Directory component .. (dot-dot) "
+		},
+		{
+			"0x0323000e": "Default Directory does not exist. "
+		},
+		{
+			"0x04830001": "Invalid or missing Secure Gateway client configuration "
+		},
+		{
+			"0x04830002": "Secure Gateway client configuration accepted pending activation "
+		},
+		{
+			"0x04830003": "Invalid or unrecognized Gateway ID "
+		},
+		{
+			"0x04830004": "Invalid or unrecognized Security Token "
+		},
+		{
+			"0x04830005": "Security Token is required for this Secure Gateway Client "
+		},
+		{
+			"0x04830006": "Security Token must not be specified for this Secure Gateway Client "
+		},
+		{
+			"0x02d30001": "Failed to initialize the SideCar communications channel "
+		},
+		{
+			"0x02d30002": "Failed to initialize the SideCar stream communications "
+		},
+		{
+			"0x02d30003": "Failed to initialize the SideCar process "
+		},
+		{
+			"0x02d30004": "Requested interface is down or unconfigured "
+		},
+		{
+			"0x02d30005": "Runtime SideCar process failure "
+		},
+		{
+			"0x02d30006": "Request queue error: SideCar deletion pending "
+		},
+		{
+			"0x02d30007": "Request queue error: queue full "
+		},
+		{
+			"0x02d30008": "Request queue error: out of memory "
+		},
+		{
+			"0x02d30009": "Request could not execute: insufficient resources "
+		},
+		{
+			"0x02d3000a": "Network Error "
+		},
+		{
+			"0x02d3000b": "Failed to initialize the SideCar container process "
+		},
+		{
+			"0x02d3000c": "Watchdog failed to communicate with an internal guest component "
+		},
+		{
+			"0x02d3000d": "Failed to communicate configuration state with an internal guest component "
+		},
+		{
+			"0x02d3000e": "Failed to communicate DNS configuration state with an internal guest component "
+		},
+		{
+			"0x02d3000f": "Failed to communicate opstate down with an internal guest component "
+		},
+		{
+			"0x02d30010": "Failed to communicate opstate up with an internal guest component "
+		},
+		{
+			"0x02d30011": "Failed to communicate commit with an internal guest component "
+		},
+		{
+			"0x02d30012": "Could not create tap interface "
+		},
+		{
+			"0x02d30013": "Could not delete tap interface "
+		},
+		{
+			"0x02d30014": "Could not start tap interface "
+		},
+		{
+			"0x02d30015": "Could not bring down tap interface "
+		},
+		{
+			"0x02d30016": "Internal network error "
+		},
+		{
+			"0x02d30017": "Error setting up tap interface "
+		},
+		{
+			"0x02d50018": "Failed to establish the connection to an internal guest component "
+		},
+		{
+			"0x02d30019": "Failed to communicate action event with an internal guest component "
+		},
+		{
+			"0x02d3001a": "Failed to communicate status request with an internal guest component "
+		},
+		{
+			"0x02d3001b": "Failed to communicate error report request with an internal guest component "
+		},
+		{
+			"0x02d3001c": "Internal guest request returned an error code "
+		},
+		{
+			"0x02d3001d": "Action failed, examine the logs for more information "
+		},
+		{
+			"0x02d3001e": "Task terminated after no response "
+		},
+		{
+			"0x02d6001f": "Task startup process pending "
+		},
+		{
+			"0x02430001": "Message throttled "
+		},
+		{
+			"0x00760001": "SNMP agent is not active "
+		},
+		{
+			"0x00730002": "Cannot add port "
+		},
+		{
+			"0x00730003": "Cannot send trap "
+		},
+		{
+			"0x00730004": "SNMP agent down due to SNMPv3 user credentials with banned algorithms "
+		},
+		{
+			"0x01e30001": "Restarting DB connection failed. "
+		},
+		{
+			"0x01e30002": "Starting DB connection failed. "
+		},
+		{
+			"0x01e30003": "DB connection username missing. "
+		},
+		{
+			"0x01e30004": "Either DB connection password or password alias is required "
+		},
+		{
+			"0x01e30005": "Invalid DB configuration template. "
+		},
+		{
+			"0x01e30006": "No database type configured. "
+		},
+		{
+			"0x01e30007": "Invalid host configured. "
+		},
+		{
+			"0x01e30008": "Could not set device host name "
+		},
+		{
+			"0x01e30009": "Data Source ID missing "
+		},
+		{
+			"0x01e3000a": "Data Source is currently not available "
+		},
+		{
+			"0x01e3000b": "Invalid configuration parameter "
+		},
+		{
+			"0x00850001": "Starting SSH daemon "
+		},
+		{
+			"0x00830002": "Could not start SSH daemon "
+		},
+		{
+			"0x00830003": "Could not communicate with SSH daemon "
+		},
+		{
+			"0x00f30001": "Illegal filename "
+		},
+		{
+			"0x00f30002": "File is unreadable "
+		},
+		{
+			"0x00f30003": "File is not in a known format "
+		},
+		{
+			"0x00f30004": "File read error "
+		},
+		{
+			"0x00f30005": "File has invalid NotBefore field "
+		},
+		{
+			"0x00f30006": "File is not yet valid "
+		},
+		{
+			"0x00f30007": "File has invalid NotAfter field "
+		},
+		{
+			"0x00f30008": "File is expired "
+		},
+		{
+			"0x00f30009": "Mismatched public/private key pair "
+		},
+		{
+			"0x00f3000b": "No keys, sskeys, or certificates specified "
+		},
+		{
+			"0x00f3000c": "Invalid SSL Proxy Profile type "
+		},
+		{
+			"0x00f3000d": "SSL Proxy Profile context init error "
+		},
+		{
+			"0x00f3000e": "No key object found "
+		},
+		{
+			"0x00f3000f": "Unable to make a valid certificate from input file "
+		},
+		{
+			"0x00f30010": "Crypto Key encrypted using banned algorithm and cannot be decrypted "
+		},
+		{
+			"0x00f30011": "Crypto Key is too weak (< 1024 bits) for current crypto mode "
+		},
+		{
+			"0x00f30012": "Crypto Certificate encrypted using banned algorithm and cannot be decrypted "
+		},
+		{
+			"0x00f30013": "Crypto Certificate is too weak (< 1024 bits) for current crypto mode "
+		},
+		{
+			"0x00f30014": "Invalid cipher suite configuration for SSL client profile "
+		},
+		{
+			"0x00f30015": "Invalid identification credentials for SSL client profile "
+		},
+		{
+			"0x00f30016": "Invalid cipher suite configuration for SSL server profile "
+		},
+		{
+			"0x00f30017": "Invalid identification credentials for SSL server profile "
+		},
+		{
+			"0x00f30018": "Missing identification credentials in SSL server profile "
+		},
+		{
+			"0x00f30019": "Missing validation credentials in SSL server profile "
+		},
+		{
+			"0x00f3001a": "Missing validation credentials in SSL client profile "
+		},
+		{
+			"0x00f3001b": "Missing SSL server profile in SSL SNI server profile "
+		},
+		{
+			"0x00f3001c": "Missing SSL Host to SSL Server Name Mapping in SSL SNI server profile "
+		},
+		{
+			"0x00f3001d": "Invalid elliptic curve configuration for SSL Server Profile "
+		},
+		{
+			"0x00f3001e": "Invalid elliptic curve configuration for SSL Client Profile "
+		},
+		{
+			"0x00f3001f": "Duplicate host name exists in the SNI map for SSL host name mapping "
+		},
+		{
+			"0x01730001": "Out of memory "
+		},
+		{
+			"0x01740002": "Illegal argument to API "
+		},
+		{
+			"0x01760003": "Stanza or entry not found "
+		},
+		{
+			"0x00930001": "No registered provider "
+		},
+		{
+			"0x00930002": "Duplicate provider "
+		},
+		{
+			"0x00930003": "Cannot open status consumer "
+		},
+		{
+			"0x00930004": "Invalid class "
+		},
+		{
+			"0x00930005": "Invalid index "
+		},
+		{
+			"0x00930006": "Cannot fetch status data "
+		},
+		{
+			"0x00960007": "No more data "
+		},
+		{
+			"0x00960008": "Searching data "
+		},
+		{
+			"0x00930009": "Status data is not available "
+		},
+		{
+			"0x0094000a": "Statistics disabled "
+		},
+		{
+			"0x02a30001": "Directory property must be specified "
+		},
+		{
+			"0x02a30002": "Storage volume has corrupt file system "
+		},
+		{
+			"0x02a30003": "Cannot make storage volume accessible "
+		},
+		{
+			"0x02a30004": "Error making storage volume inaccessible "
+		},
+		{
+			"0x02a30005": "No device to mount. "
+		},
+		{
+			"0x02a30006": "Could not read volume information. "
+		},
+		{
+			"0x02a30007": "Could not write volume information. "
+		},
+		{
+			"0x02a30008": "Volume enabled during write caching modification. "
+		},
+		{
+			"0x01060001": "Malformed PIPEline: first action reads from PIPE "
+		},
+		{
+			"0x01060002": "Malformed PIPEline: PIPE input not preceded by PIPE output "
+		},
+		{
+			"0x01060003": "Malformed PIPEline: PIPE output not followed by PIPE input "
+		},
+		{
+			"0x01060004": "Malformed PIPEline: last action outputs to PIPE "
+		},
+		{
+			"0x01030005": "No actions configured "
+		},
+		{
+			"0x01070006": "Uninitialized action "
+		},
+		{
+			"0x01a40001": "Throttling connections due to low memory "
+		},
+		{
+			"0x01a30002": "Restart due to low memory "
+		},
+		{
+			"0x01a30003": "Restart due to resource shortage timeout "
+		},
+		{
+			"0x01a50004": "Memory usage recovered above threshold "
+		},
+		{
+			"0x01a40005": "Throttling connections due to low temporary file space "
+		},
+		{
+			"0x01a30006": "Restart due to low temporary file space "
+		},
+		{
+			"0x01a50007": "Temporary file space recovered above threshold "
+		},
+		{
+			"0x01a40008": "Throttling connections due to low number of free ports "
+		},
+		{
+			"0x01a30009": "Restart due to port shortage "
+		},
+		{
+			"0x01a5000a": "Number of free ports recovered "
+		},
+		{
+			"0x01a3000b": "Restart due to XML Names prefix shortage "
+		},
+		{
+			"0x01a3000c": "Restart due to XML Names namespace shortage "
+		},
+		{
+			"0x01a3000d": "Restart due to XML Names local name shortage "
+		},
+		{
+			"0x01a2000e": "Installed battery is nearing end of life. "
+		},
+		{
+			"0x01a6000f": "Installed battery longevity test passed. "
+		},
+		{
+			"0x01a30010": "Invalid URL "
+		},
+		{
+			"0x01a30011": "Invalid virtual file system "
+		},
+		{
+			"0x01a30012": "File not found "
+		},
+		{
+			"0x01a30013": "Buffer too small "
+		},
+		{
+			"0x01a30014": "I/O error "
+		},
+		{
+			"0x01a30015": "Out of memory "
+		},
+		{
+			"0x01a10016": "Number of free XML Names is very low. "
+		},
+		{
+			"0x01a30017": "Restart due to low file descriptor "
+		},
+		{
+			"0x01a40018": "Throttling due to low number of available file descriptors "
+		},
+		{
+			"0x01a5001a": "Number of available file descriptors recovered "
+		},
+		{
+			"0x01a2001b": "The RAID battery is not detected. "
+		},
+		{
+			"0x01a2001c": "The RAID battery needs to be replaced. "
+		},
+		{
+			"0x01a2001d": "The RAID battery temperature is high. "
+		},
+		{
+			"0x01a2001e": "The RAID battery voltage is low. "
+		},
+		{
+			"0x01a3001f": "Error starting command execution. "
+		},
+		{
+			"0x01a30020": "Command terminated with error(s). "
+		},
+		{
+			"0x01a30021": "Cannot find the RAID controller in the system. "
+		},
+		{
+			"0x01a30022": "The RAID controller is in the faulted state. "
+		},
+		{
+			"0x01a20023": "One of RAID physical disk(s) has error(s). "
+		},
+		{
+			"0x01a30026": "Can not create tenant directory. "
+		},
+		{
+			"0x01a30027": "Can not open tenant configuration file. "
+		},
+		{
+			"0x01630001": "Restarting ISAM client failed. "
+		},
+		{
+			"0x01630002": "Starting ISAM client failed. "
+		},
+		{
+			"0x01630003": "Configuration template missing. "
+		},
+		{
+			"0x01630004": "Missing or invalid SSL key file. "
+		},
+		{
+			"0x01630005": "Invalid SSL key stash file. "
+		},
+		{
+			"0x01630006": "Missing SSL key stash file. "
+		},
+		{
+			"0x01630007": "Invalid configuration template. "
+		},
+		{
+			"0x01630008": "Missing or invalid LDAP SSL key file. "
+		},
+		{
+			"0x01630009": "ISAM is not licensed for this device "
+		},
+		{
+			"0x0163000a": "ISAM firmware not found. "
+		},
+		{
+			"0x0163000b": "Internal error scheduling ISAM file creation "
+		},
+		{
+			"0x0163000c": "ISAM client restart in progress "
+		},
+		{
+			"0x0163000d": "ISAM client provided with bad configuration parameter "
+		},
+		{
+			"0x0163000e": "ISAM libraries failed to initialize. "
+		},
+		{
+			"0x0166000f": "ISAM client restart pending. "
+		},
+		{
+			"0x02830001": "Out of memory "
+		},
+		{
+			"0x02830002": "TFIM server name is missing. "
+		},
+		{
+			"0x02830003": "TFIM server port is missing. "
+		},
+		{
+			"0x02830004": "TFIM service applies-to field is missing. "
+		},
+		{
+			"0x02830005": "TFIM server Compatible Mode is missing. "
+		},
+		{
+			"0x02830006": "Missing TFIM Request Token Format. "
+		},
+		{
+			"0x02830007": "Missing Stylesheet specified for custom TFIM Request Token Format. "
+		},
+		{
+			"0x02830008": "Invalid Stylesheet specified for custom TFIM Request Token Format. "
+		},
+		{
+			"0x02830009": "Invalid Stylesheet specified for custom TFIM Response Token Format. "
+		},
+		{
+			"0x0283000a": "Cannot access local filestore information for TFIM. "
+		},
+		{
+			"0x0283000b": "Cannot convert relative location of style sheet to the absolute location on the box. "
+		},
+		{
+			"0x0283000c": "TFIM server Endpoint Type is missing. "
+		},
+		{
+			"0x02330001": "Tibco EMS process died. "
+		},
+		{
+			"0x02330002": "Unknown Tibco EMS server. "
+		},
+		{
+			"0x02330003": "Lost connection to Tibco EMS server. "
+		},
+		{
+			"0x02330004": "Wrong number of arguments passed to initialize Tibco EMS connection. "
+		},
+		{
+			"0x02330005": "Failed to establish connection to Tibco EMS server "
+		},
+		{
+			"0x02330006": "Maximum amount of Tibco EMS Load Balanced servers has been exceeded "
+		},
+		{
+			"0x02330007": "Tibco EMS commit operation has failed "
+		},
+		{
+			"0x04030001": "Time zone name is not valid. "
+		},
+		{
+			"0x04030002": "Internal error processing a time zone request. "
+		},
+		{
+			"0x02530001": "WebSphere JMS process died. "
+		},
+		{
+			"0x02530002": "Unknown WebSphere JMS server. "
+		},
+		{
+			"0x02530003": "Lost connection to WebSphere JMS server. "
+		},
+		{
+			"0x02530004": "Wrong number of arguments passed to initialize WebSphere JMS connection. "
+		},
+		{
+			"0x02530005": "Failed to establish connection to WebSphere JMS server "
+		},
+		{
+			"0x02530006": "WebSphere JMS commit operation has failed "
+		},
+		{
+			"0x02530007": "The selected WebSphere JMS SSL Cipher is not supported for the specified protocol option "
+		},
+		{
+			"0x02530008": "The WebSphere JMS SSL options in the crypto profile are not supported. TLS version 1.2 must be enabled; SSL version 3 must be disabled. "
+		},
+		{
+			"0x03330001": "Invalid Deployment Manager address or host name "
+		},
+		{
+			"0x02030001": "No request security policy matched "
+		},
+		{
+			"0x02030002": "No response security policy matched "
+		},
+		{
+			"0x02030003": "HTTP version in response not allowed "
+		},
+		{
+			"0x02030004": "HTTP response code in response not allowed "
+		},
+		{
+			"0x02030005": "HTTP Body Size Too Small "
+		},
+		{
+			"0x02030006": "HTTP Body Size Too Large "
+		},
+		{
+			"0x02030007": "HTTP Content Type Unacceptable "
+		},
+		{
+			"0x02030008": "Name-Value Max Attributes Exceeded "
+		},
+		{
+			"0x02030009": "Name-Value Total Size Exceeded "
+		},
+		{
+			"0x0203000a": "Name-Value Name Size Attribute Exceeded "
+		},
+		{
+			"0x0203000b": "Name-Value Value Size Attributes Exceeded "
+		},
+		{
+			"0x0203000c": "Name-Value Value Expression Not Allowed "
+		},
+		{
+			"0x0203000d": "Name-Value Name Not Found "
+		},
+		{
+			"0x0203000e": "Request Header Method Not Allowed "
+		},
+		{
+			"0x0203000f": "Request Header Version Not Allowed "
+		},
+		{
+			"0x02030010": "Request Body Size Too Small "
+		},
+		{
+			"0x02030011": "Request Body Size Too Large "
+		},
+		{
+			"0x02030012": "ACL Violation "
+		},
+		{
+			"0x02030013": "SSL Requirement Not Met "
+		},
+		{
+			"0x02030014": "SSL Requirement Not Met "
+		},
+		{
+			"0x02030015": "AAA violation "
+		},
+		{
+			"0x02030016": "Request Header Profile Not Satisfied "
+		},
+		{
+			"0x02030017": "Query String Profile Not Satisfied "
+		},
+		{
+			"0x02030018": "URI Too Long "
+		},
+		{
+			"0x02030019": "URI contained .. "
+		},
+		{
+			"0x0203001a": "URI contained .exe "
+		},
+		{
+			"0x0203001b": "URI contained unicode "
+		},
+		{
+			"0x0203001c": "Request Content Type Prohibited "
+		},
+		{
+			"0x0203001d": "Query String Policy Not Satisfied "
+		},
+		{
+			"0x0203001e": "Request URI Fragment Policy Not Satisfied "
+		},
+		{
+			"0x0203001f": "Request Not A Valid Starting Point "
+		},
+		{
+			"0x02030020": "Session Expired "
+		},
+		{
+			"0x02030021": "Session Cookie Forged "
+		},
+		{
+			"0x02030022": "Cookie Policy Not Satisfied "
+		},
+		{
+			"0x02030023": "Cookie Name/Value Profile Not Satisfied "
+		},
+		{
+			"0x02030024": "Cookie Sign/Encrypt Forged "
+		},
+		{
+			"0x02030025": "URL-Encoded request body policy violated "
+		},
+		{
+			"0x02030026": "multipart-form-data body policy violated "
+		},
+		{
+			"0x02030027": "XSS Signature Detected "
+		},
+		{
+			"0x02030028": "SQL Signature Detected "
+		},
+		{
+			"0x02030029": "Error Monitor Blackout "
+		},
+		{
+			"0x0203002a": "Error Monitor Blackout "
+		},
+		{
+			"0x0203002b": "Error Monitor Blackout "
+		},
+		{
+			"0x0203002c": "Too many concurrent connections "
+		},
+		{
+			"0x0203002d": "XML Manager Missing "
+		},
+		{
+			"0x0203002f": "Remote Address Required "
+		},
+		{
+			"0x02030030": "Local Address Required "
+		},
+		{
+			"0x02030031": "Invalid Remote Address "
+		},
+		{
+			"0x02030032": "No Admission Satisfaction Policy found in Request Maps "
+		},
+		{
+			"0x02030033": "SQL Injection Patterns File Not Found "
+		},
+		{
+			"0x02030034": "XSS Patterns File Not Found "
+		},
+		{
+			"0x03b30001": "XML Manager Missing "
+		},
+		{
+			"0x03b30002": "End Point Address Required "
+		},
+		{
+			"0x03b30003": "End Point Policy Required "
+		},
+		{
+			"0x03b30004": "Missing SSL Server Proxy Profile for Endpoint "
+		},
+		{
+			"0x03b30005": "Invalid SSL Server Proxy Profile for Endpoint "
+		},
+		{
+			"0x03b30006": "Missing SSL Server Profile for Endpoint "
+		},
+		{
+			"0x03b30007": "Missing SSL SNI Server Profile for Endpoint "
+		},
+		{
+			"0x03b30008": "Processing policy is required "
+		},
+		{
+			"0x01930001": "Local copy of WSDL not found "
+		},
+		{
+			"0x01950002": "Generating schema "
+		},
+		{
+			"0x01830001": "Bad Spooler "
+		},
+		{
+			"0x01830002": "Already started "
+		},
+		{
+			"0x01830003": "Cannot open subscriber "
+		},
+		{
+			"0x01830004": "WSM Agent not up "
+		},
+		{
+			"0x01830005": "Subscription exists "
+		},
+		{
+			"0x01830006": "Invalid damping interval "
+		},
+		{
+			"0x01830007": "Push destinaton not provided "
+		},
+		{
+			"0x01830008": "Push processor file does not exist "
+		},
+		{
+			"0x01830009": "XML Manager is disabled "
+		},
+		{
+			"0x02930001": "Cannot allocate WS-RM state block "
+		},
+		{
+			"0x02960002": "WS-RM CreateSequence rejected, not enabled "
+		},
+		{
+			"0x02960003": "WS-RM CreateSequence rejected, too many "
+		},
+		{
+			"0x02930004": "WS-RM CreateSequence rejected, identifier not unique "
+		},
+		{
+			"0x02930006": "WS-RM CreateSequence rejected, internal error "
+		},
+		{
+			"0x02960007": "WS-RM CreateSequence rejected, internal error "
+		},
+		{
+			"0x02960008": "WS-RM CreateSequence rejected, Offer without Identifier "
+		},
+		{
+			"0x02960009": "WS-RM CreateSequence rejected, Offer without Endpoint "
+		},
+		{
+			"0x0296000a": "WS-RM CreateSequence rejected, negative Expires "
+		},
+		{
+			"0x0296000b": "WS-RM CreateSequence rejected, invalid Expires "
+		},
+		{
+			"0x0296000c": "WS-RM message was received for an unknown sequence "
+		},
+		{
+			"0x0296000d": "WS-RM message was received for a closed sequence "
+		},
+		{
+			"0x0296000e": "WS-RM message was received for a terminating sequence "
+		},
+		{
+			"0x0296000f": "WS-RM message was received with too high a sequence number "
+		},
+		{
+			"0x02970010": "WS-RM message was received with a duplicate message number "
+		},
+		{
+			"0x02960011": "WS-RM message was received with an invalid acknowledgement "
+		},
+		{
+			"0x02960012": "SOAP message was received without required WS-RM header "
+		},
+		{
+			"0x02960013": "WS-RM message received with a message number that is not InOrder "
+		},
+		{
+			"0x02960014": "WS-RM outbound CreateSequence canceled, too many "
+		},
+		{
+			"0x02930015": "WS-RM internal error "
+		},
+		{
+			"0x02960016": "WS-RM Source Sequence disabled for request processing "
+		},
+		{
+			"0x02960017": "WS-RM Source Sequence disabled for response processing "
+		},
+		{
+			"0x02960018": "WS-RM creating Source Sequence for data message "
+		},
+		{
+			"0x02960019": "WS-RM waiting to create Source Sequence for data message "
+		},
+		{
+			"0x0293001a": "WS-RM Source retransmit queue too long "
+		},
+		{
+			"0x0296001b": "WS-RM CreateSequence rejected, unreachable AcksTo "
+		},
+		{
+			"0x0293001c": "WS-RM CreateSequence rejected, invalid SSL session "
+		},
+		{
+			"0x0296001d": "WS-ReliableMessaging message received with out-of-range message number "
+		},
+		{
+			"0x0296001e": "WS-ReliableMessaging received too many out-of-order messages "
+		},
+		{
+			"0x0293001f": "WS-RM Source received Sequence Terminated Fault "
+		},
+		{
+			"0x02930020": "WS-RM Source received Unknown Sequence Fault "
+		},
+		{
+			"0x02930021": "WS-RM Source received Message Number Rollover Fault "
+		},
+		{
+			"0x02930022": "WS-RM Source received Create Sequence Refused Fault "
+		},
+		{
+			"0x02930023": "WS-RM Source received Sequence Closed Fault "
+		},
+		{
+			"0x02930024": "WS-RM Source CreateSequence refused due to unsupported UsesSequenceSSL "
+		},
+		{
+			"0x04730001": "The eXtreme Scale command failed. "
+		},
+		{
+			"0x04730002": "An internal error occurred when processign an eXtreme Scale command. "
+		},
+		{
+			"0x04730003": "The eXtreme Scale grid configuration is down or disabled. "
+		},
+		{
+			"0x03c30001": "XC10 appliance unavailable in the collective "
+		},
+		{
+			"0x03c30002": "The XC10 command failed. See log for details. "
+		},
+		{
+			"0x03c30003": "The response from the XC10 appliance could not be parsed. "
+		},
+		{
+			"0x03c30004": "There was an internal error executing XC10 command. "
+		},
+		{
+			"0x03c30005": "The specified XC10 action was unknown. "
+		},
+		{
+			"0x03c30006": "The XC10 grid configuration is down or disabled. "
+		},
+		{
+			"0x03c30007": "An SSL proxy is required for this action. "
+		},
+		{
+			"0x03c30008": "A shared secret encryption key is required for this configuration. "
+		},
+		{
+			"0x03c30009": "An encryption algorithm is required for this configuration. "
+		},
+		{
+			"0x03c3000a": "A hash key obfuscation algorithm is required for this configuration. "
+		},
+		{
+			"0x03c3000b": "Workload Management MUST be off in the collective for this configuration. "
+		},
+		{
+			"0x03c3000c": "Session Affinity MUST be disabled in the collective for this configuration. "
+		},
+		{
+			"0x03c3000d": "A password (directly configured or via an alias) is required. "
+		},
+		{
+			"0x00d30001": "Message is not a SOAP 1.1 or 1.2 document "
+		},
+		{
+			"0x00d30002": "Invalid SOAP envelope "
+		},
+		{
+			"0x00d30003": "Rejected by filter; SOAP fault sent "
+		},
+		{
+			"0x00d30004": "Rejected by filter; error reply sent "
+		},
+		{
+			"0x00d30005": "Message too large "
+		},
+		{
+			"0x00d30006": "SOAP envelope/body validation error. "
+		},
+		{
+			"0x00d30007": "Rejected by policy. "
+		},
+		{
+			"0x00230001": "Dynamic Execution Error "
+		},
+		{
+			"0x00230002": "Static Compilation Error "
+		},
+		{
+			"0x00230003": "Unable to allocate execution resources "
+		},
+		{
+			"0x00230006": "Output Error - Execution Cancelled "
+		},
+		{
+			"0x00230009": "Error in regular expression processing "
+		},
+		{
+			"0x02e30001": "Host Resolution Error "
+		},
+		{
+			"0x02e30002": "Cannot resolve host "
+		},
+		{
+			"0x02e30003": "Cannot Connect to Host "
+		},
+		{
+			"0x02e30004": "Not connected to NSS server "
+		},
+		{
+			"0x02e30005": "Authentication failed "
+		},
+		{
+			"0x02e30006": "Communication Failed "
+		},
+		{
+			"0x02e30007": "Not authorized "
+		},
+		{
+			"0x02e30008": "Premature end-of-stream "
+		},
+		{
+			"0x02e30009": "Already connected "
+		},
+		{
+			"0x02e6000a": "Handshake in progress "
+		},
+		{
+			"0x02e3000b": "Authorization failed "
+		},
+		{
+			"0x02e6000c": "TCP connection in progress "
+		},
+		{
+			"0x02e6000d": "TCP connection retry "
+		},
+		{
+			"0x02e6000e": "Handshake with NSS Server failed "
+		},
+		{
+			"0x02e3000f": "Invalid registration parameters "
+		},
+		{
+			"0x02e30010": "Invalid NSS call parameter "
+		},
+		{
+			"0x02e30011": "client exists "
+		},
+		{
+			"0x02e30012": "ZOS-NSS generic error "
+		},
+		{
+			"0x02e30013": "Referenced z/OS NSS Client does not exist "
+		},
+		{
+			"0x02e30014": "Referenced z/OS NSS Client connection is down "
+		},
+		{
+			"0x02e30015": "Failed to retrieve SAF certificate "
+		},
+		{
+			"0x02e30016": "Failed to retrieve SAF key"
+		}
+	]
+}
